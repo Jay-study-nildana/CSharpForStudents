@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiHelloWorldNET461", "WebApiHelloWorldNET461\WebApiHelloWorldNET461.csproj", "{5840EEBB-AD27-4E1D-BFB8-5DC0127180E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiHelloWorldNET461.Tests", "WebApiHelloWorldNET461.Tests\WebApiHelloWorldNET461.Tests.csproj", "{F8B65E4F-CA5E-4DB3-A237-B6FD73CF80BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5840EEBB-AD27-4E1D-BFB8-5DC0127180E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5840EEBB-AD27-4E1D-BFB8-5DC0127180E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5840EEBB-AD27-4E1D-BFB8-5DC0127180E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5840EEBB-AD27-4E1D-BFB8-5DC0127180E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8B65E4F-CA5E-4DB3-A237-B6FD73CF80BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8B65E4F-CA5E-4DB3-A237-B6FD73CF80BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8B65E4F-CA5E-4DB3-A237-B6FD73CF80BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8B65E4F-CA5E-4DB3-A237-B6FD73CF80BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4776090C-A735-4FCD-9DB1-101BA6E4FDBB}
+	EndGlobalSection
+EndGlobal
