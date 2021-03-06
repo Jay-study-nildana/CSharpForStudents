@@ -1,0 +1,438 @@
+{
+	"info": {
+		"_postman_id": "9f5c6cd6-f8b1-4ffe-afd8-f006d4b70b73",
+		"name": "FinalSetLocalHost - September 25th 2019",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get User Resume LocalHost",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "OSM_PD743AQGogvg85fUpd6nzS3Y0xedRHLCKcrFwVfLmEftgoj_KlFpAifUD8od-XelF8y3t4TuLt_mqOD0yHS1NOkywTWu5VUFP-YeHbSMTuR-vPxMr23_g2Hn-sAgt4yF8j4rQn4INbh5YpR3mWL1fMjuR4dJDB3cGKfOFLnLzMqhfiIrOlSNS2WbofKFcTxmjwy2lPqpoRrj1Wy_9nBktQQuUiot5Bvy-WFQ8GN6IS7f8RNuwZxTBAu5v3bpgB9RVuofFhB4EPBv6YcI6OKPYLspj15HSubcuTwe9Jth98EYjqW1uKsqz2dUCoGw2exXL9v87IQRw5GM2psI6h0VUNcEYsd2xoqaEM1MjweGzMIIpv8RilqJ9CPW1Mje8XbNRG7e0VqgIwcbtdG7jJCip9a9DdNtQE-iehSQ0ZI0UNq1qiDMWaXh9N9wa5iDesWzHzlhkpXcuZHDNSNhs6SvxSugruqRzbn8a3QAkoZPbD0V7-2tM18uqS58L_F3",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:64674/api/UserandResume/GetResume",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "64674",
+					"path": [
+						"api",
+						"UserandResume",
+						"GetResume"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Resume Localhost",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "OSM_PD743AQGogvg85fUpd6nzS3Y0xedRHLCKcrFwVfLmEftgoj_KlFpAifUD8od-XelF8y3t4TuLt_mqOD0yHS1NOkywTWu5VUFP-YeHbSMTuR-vPxMr23_g2Hn-sAgt4yF8j4rQn4INbh5YpR3mWL1fMjuR4dJDB3cGKfOFLnLzMqhfiIrOlSNS2WbofKFcTxmjwy2lPqpoRrj1Wy_9nBktQQuUiot5Bvy-WFQ8GN6IS7f8RNuwZxTBAu5v3bpgB9RVuofFhB4EPBv6YcI6OKPYLspj15HSubcuTwe9Jth98EYjqW1uKsqz2dUCoGw2exXL9v87IQRw5GM2psI6h0VUNcEYsd2xoqaEM1MjweGzMIIpv8RilqJ9CPW1Mje8XbNRG7e0VqgIwcbtdG7jJCip9a9DdNtQE-iehSQ0ZI0UNq1qiDMWaXh9N9wa5iDesWzHzlhkpXcuZHDNSNhs6SvxSugruqRzbn8a3QAkoZPbD0V7-2tM18uqS58L_F3",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"firstName\": \"Jay\",\r\n  \"middleName\": \"JayM\",\r\n  \"lastName\": \"JayL\",\r\n  \"address\": \"Address of Mysore\",\r\n  \"phoneNumber\": \"555696969\",\r\n  \"email\": \"email@mail.com\",\r\n  \"skillsSummary\": \"Software Architect\",\r\n  \"educationalDetailsSummary\": \"Engineering and MBA\",\r\n  \"extraCurricularActivitiesSummary\": \"Comic Books\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:64674/api/UserandResume/UpdateUserandResume",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "64674",
+					"path": [
+						"api",
+						"UserandResume",
+						"UpdateUserandResume"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Token For User Localhost",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "password",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "jay3@ProjectCRUD2.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "Password$321",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:64674/Token",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "64674",
+					"path": [
+						"Token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get User Profile Localhost",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "-WnK-YueX9eKeDalDhXfWE-esgUKlxdyBM4pv45fuNMYkMbGNvS4_JZR_vJav7hVQGNql0TOxfSB4N61z6k4j84bVIrE-VYN_iaaXDcoHRCaF4I9wKLyypWnH-17xXAzFohOVkYFFcls4SNGKzU9AIGhB0juCosPJJMeT_r3GF__-9dPnRHkejCdrpX1QeAWeJDrBbuRvqktgvaEYrl9E0pngYmh-aGf4bvo6ZzC6PyMOFQ0gbG4oA5I4r-ha0qSMeBVb6eSUPhiKThiGhbEKIza-rrpUpgajfTbJvVR87ZIttUHOqSbe6C_vYIeQ4eqdr5eWmW71tP45wLUQqAonS-L8isj6T6gfYls7hkVpqQi5qGUecJS-H7OKgXHhjKHPyu3du4kesgGQ1UynXSkPb5GnXKcQFJk5Qu6pvPl7wO_OEMkJNzzID4bhmzks_YDyQgdBLM6f3x8odaj8p-E0DgKG2h7gstWtxU1CRv3PoOp-odttTmGejS5U9QJtTq3",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:64674/api/UserandResume/GetUserProfile",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "64674",
+					"path": [
+						"api",
+						"UserandResume",
+						"GetUserProfile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register A New Account Localhost",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"Email\": \"jay@ProjectCRUD2Oct10tha.com\",\r\n  \"Password\": \"Password$321\",\r\n  \"ConfirmPassword\": \"Password$321\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:64674/api/Account/Register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "64674",
+					"path": [
+						"api",
+						"Account",
+						"Register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register A New Account Online",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"Email\": \"jay@ProjectCRUD30.com\",\r\n  \"Password\": \"Password$321\",\r\n  \"ConfirmPassword\": \"Password$321\"\r\n}"
+				},
+				"url": {
+					"raw": "http://projectcrudwebapiserver.azurewebsites.net/api/Account/Register",
+					"protocol": "http",
+					"host": [
+						"projectcrudwebapiserver",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"Account",
+						"Register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get User Resume Online",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "OSM_PD743AQGogvg85fUpd6nzS3Y0xedRHLCKcrFwVfLmEftgoj_KlFpAifUD8od-XelF8y3t4TuLt_mqOD0yHS1NOkywTWu5VUFP-YeHbSMTuR-vPxMr23_g2Hn-sAgt4yF8j4rQn4INbh5YpR3mWL1fMjuR4dJDB3cGKfOFLnLzMqhfiIrOlSNS2WbofKFcTxmjwy2lPqpoRrj1Wy_9nBktQQuUiot5Bvy-WFQ8GN6IS7f8RNuwZxTBAu5v3bpgB9RVuofFhB4EPBv6YcI6OKPYLspj15HSubcuTwe9Jth98EYjqW1uKsqz2dUCoGw2exXL9v87IQRw5GM2psI6h0VUNcEYsd2xoqaEM1MjweGzMIIpv8RilqJ9CPW1Mje8XbNRG7e0VqgIwcbtdG7jJCip9a9DdNtQE-iehSQ0ZI0UNq1qiDMWaXh9N9wa5iDesWzHzlhkpXcuZHDNSNhs6SvxSugruqRzbn8a3QAkoZPbD0V7-2tM18uqS58L_F3",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://projectcrudwebapiserver.azurewebsites.net/api/UserandResume/GetResume",
+					"protocol": "http",
+					"host": [
+						"projectcrudwebapiserver",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"UserandResume",
+						"GetResume"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Resume Online",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "OSM_PD743AQGogvg85fUpd6nzS3Y0xedRHLCKcrFwVfLmEftgoj_KlFpAifUD8od-XelF8y3t4TuLt_mqOD0yHS1NOkywTWu5VUFP-YeHbSMTuR-vPxMr23_g2Hn-sAgt4yF8j4rQn4INbh5YpR3mWL1fMjuR4dJDB3cGKfOFLnLzMqhfiIrOlSNS2WbofKFcTxmjwy2lPqpoRrj1Wy_9nBktQQuUiot5Bvy-WFQ8GN6IS7f8RNuwZxTBAu5v3bpgB9RVuofFhB4EPBv6YcI6OKPYLspj15HSubcuTwe9Jth98EYjqW1uKsqz2dUCoGw2exXL9v87IQRw5GM2psI6h0VUNcEYsd2xoqaEM1MjweGzMIIpv8RilqJ9CPW1Mje8XbNRG7e0VqgIwcbtdG7jJCip9a9DdNtQE-iehSQ0ZI0UNq1qiDMWaXh9N9wa5iDesWzHzlhkpXcuZHDNSNhs6SvxSugruqRzbn8a3QAkoZPbD0V7-2tM18uqS58L_F3",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"firstName\": \"Jay\",\r\n  \"middleName\": \"JayM\",\r\n  \"lastName\": \"JayL\",\r\n  \"address\": \"Address of Mysore\",\r\n  \"phoneNumber\": \"555696969\",\r\n  \"email\": \"email@mail.com\",\r\n  \"skillsSummary\": \"Software Architect\",\r\n  \"educationalDetailsSummary\": \"Engineering and MBA\",\r\n  \"extraCurricularActivitiesSummary\": \"Comic Books\"\r\n}"
+				},
+				"url": {
+					"raw": "http://projectcrudwebapiserver.azurewebsites.net/api/UserandResume/UpdateUserandResume",
+					"protocol": "http",
+					"host": [
+						"projectcrudwebapiserver",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"UserandResume",
+						"UpdateUserandResume"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get User Profile Online",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "l0n2kbhLfEGKcxMXEi_DNgVI3JtnwQPS9_oB5W2bTtMp1OMv_EuFmbxSIk80ir5OjKhuAKmmyO29TXzJ7_ptjI33Llnn73gX8VdPoMq0NFjAzzLASqKf3oCJVIHI2MISRupvJiEWb7IBPkicF74UPXVeN3EGk8L4eLnBKgZ1Prf3KkMBihY9hPeN1layxRb4HFKQlHnVtZnzBv0-qoxHXI5c9Ygy2vYj2ZRk3G6-zj-0AuVaxar2MaxsCNzTEbSUVh6_lDdoB-mwuA0j1XkEW15W7r2-akR_IQgLc2GUD_z0rCEzogZ2HUyryNv_wULZ1pxKasQb3ktJV7bcGA43V3FHvwmy_BGafkQp8nEOTyTzDmtNYc-pyv8q73udZOC9eHc03VWuNVtPUH6xLwaxGn3Gqewlqq2VEW4W0oKe60BFPaLIs92vznaVBeX3nllBbZ1Ilj7izAe26-XUF3L9jqvZSNZyks-KJCniwESz5XgmS9vF7lqxwwU7lPyLVCwp",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://projectcrudwebapiserver.azurewebsites.net/api/UserandResume/GetUserProfile",
+					"protocol": "http",
+					"host": [
+						"projectcrudwebapiserver",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"UserandResume",
+						"GetUserProfile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Token For User Online",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "",
+						"value": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "password",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "jay@ProjectCRUDOct1a.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "Password$321",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://projectcrudwebapiserver.azurewebsites.net/Token",
+					"protocol": "http",
+					"host": [
+						"projectcrudwebapiserver",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"Token"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "e515bd2f-2451-430e-aa8c-38bea77d4b42",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "5b8131a8-3124-46da-810d-457f2a3b0e48",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

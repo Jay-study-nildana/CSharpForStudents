@@ -1,12 +1,10 @@
-# C Sharp For Students
+# working with sql server
 
-repository which contains some essential C sharp, dot net, dot net core and related .NET stuff
+simply update the connection string. 
 
-# Projects For You
-
-* [crudaspnetcore3point1mysql](crudaspnetcore3point1mysql) - a simple CRUD demo that works with mysql localhost with user identity
-* [WebApiHelloWorldNET461](WebApiHelloWorldNET461) - a simple hello world asp.net 4.6.1 web api
-* [ProjectCRUDResume](ProjectCRUDResume) - a functional asp.net 4.6.1 api server with simple token authentication
+  <connectionStrings>
+    <add name="DefaultConnection" connectionString="Server=tcp:.database.windows.net,1433;          Initial Catalog=crudpuna1;Persist Security Info=False;User ID=;          Password=; MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;          Connection Timeout=30;" providerName="System.Data.SqlClient" />
+  </connectionStrings>
 
 # Hire Me
 
