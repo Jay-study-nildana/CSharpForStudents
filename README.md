@@ -8,6 +8,18 @@ repository which contains some essential C sharp, dot net, dot net core and rela
 * [WebApiHelloWorldNET461](WebApiHelloWorldNET461) - a simple hello world asp.net 4.6.1 web api
 * [ProjectCRUDResume](ProjectCRUDResume) - a functional asp.net 4.6.1 api server with simple token authentication
 
+# Random Stuff Generator
+
+You may also be interested in checking out my full stack project, available at this link.
+
+https://jay-study-nildana.github.io/RandomStuffDocs/
+
+This project is a more detailed, full stack, solution, useful for future full stack developers.
+
+* a fully functional and frequently updated back end REST api server built on top of .NET Core 3.X and above.
+* a fully functional front end built using React JS
+* useful documentation
+
 # Hire Me
 
 I work as a full time freelance software developer and coding tutor. Hire me at [UpWork](https://www.upwork.com/fl/vijayasimhabr) or [Fiverr](https://www.fiverr.com/jay_codeguy). 
