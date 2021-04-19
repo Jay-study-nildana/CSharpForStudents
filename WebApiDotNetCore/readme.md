@@ -1,6 +1,6 @@
-# Dot Net Core Hello World
+# Dot Net Core Hello World Web Api
 
-Collection of some basic hello world projects related to .NET Core 3.X and 5.X.
+Collection of some basic hello world Web Api projects related to .NET Core 3.X and 5.X.
 
 # Projects and Solutions
 
@@ -10,6 +10,10 @@ Collection of some basic hello world projects related to .NET Core 3.X and 5.X.
 # Getting Started Notes
 
 Check [GettingStartedNotes](GettingStartedNotes.md)
+
+# Essential Commands
+
+Check [EssentialCommands.md](EssentialCommands.md)
 
 # References
 

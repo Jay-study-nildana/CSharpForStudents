@@ -1,5 +1,13 @@
 # Getting Started Notes
 
+General notes about getting started new.
+
+Also Check [GettingStartedNotes](GettingStartedNotes.md).
+Also Check [EssentialCommands.md](EssentialCommands.md).
+Also Check [References.md](References.md).
+
+# Quick Notes
+
 1. If you are using VS Code, then you can switch between SDK versions by using the global json file. See here for more details - https://stackoverflow.com/questions/42077229/switch-between-dotnet-core-sdk-versions
 1. On VS Code, you must install the extension for C# Omnisharp to do debugging. 
 1. On loading project, 'Debug Assets' will get added. Let it happen. Otherwise, you wont be able to debug.

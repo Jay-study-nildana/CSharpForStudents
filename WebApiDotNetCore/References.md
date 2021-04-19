@@ -2,6 +2,10 @@
 
 Links and References for students to pursue.
 
+Also Check [GettingStartedNotes](GettingStartedNotes.md).
+Also Check [EssentialCommands.md](EssentialCommands.md).
+Also Check [References.md](References.md).
+
 # Hello World Getting Started
 
 1. https://docs.microsoft.com/en-in/aspnet/core/tutorials/first-web-api?view=aspnetcore-5.0&tabs=visual-studio
@@ -13,6 +17,14 @@ Links and References for students to pursue.
 
 1. https://dotnet.microsoft.com/download/dotnet
 1. https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new
+
+# Downloads
+
+1. https://visualstudio.microsoft.com/vs/
+1. https://code.visualstudio.com
+1. https://visualstudio.microsoft.com/vs/mac/
+1. https://dotnet.microsoft.com/download/dotnet
+1. https://www.postman.com/downloads/
 
 # Hire Me
 

@@ -11,6 +11,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using HelloWorldDotNetCore5point1.DatabaseContext;
+using Microsoft.EntityFrameworkCore;
 
 namespace HelloWorldDotNetCore5point1
 {
@@ -26,7 +28,11 @@ namespace HelloWorldDotNetCore5point1
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
+            //services such as the DB context must be registered with the 
+            //dependency injection (DI) container. The container provides the service to controllers.
+            //here, injecting the DB Context
+            //Currently the project uses the UseInMemoryDatabase
+            services.AddDbContext<TodoContext>(opt => opt.UseInMemoryDatabase("TodoList"));
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

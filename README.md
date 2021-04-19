@@ -10,7 +10,7 @@ repository which contains some essential C sharp, dot net, dot net core and rela
 * [WebSocketDemo](WebSocketDemo) - A quick and dirty web socket demo that uses the 'websocket-sharp' library.
 * [SOLIDandDesignPatterns](SOLIDandDesignPatterns) - SOLID and Design Patterns
 * [RestSharpUsageDOTNET452](RestSharpUsageDOTNET452) - Rest Sharp Usage.
-* [HelloWorldDotNetCore](HelloWorldDotNetCore) - .NET Core Hello World Projects
+* [WebApiDotNetCore](WebApiDotNetCore) - .NET Core Hello World Web API Projects
 
 # Random Stuff Generator
 

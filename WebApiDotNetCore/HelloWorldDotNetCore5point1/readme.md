@@ -1,9 +1,17 @@
-# .NET Core 3.1 Project
+# .NET Core 5.0 Project
 
-Simple hello world 3.1 Project. 
+Simple hello world WebApi 5.0 Project. 
 
 1. Tested on VS Code on Mac
 1. Tested on Visual Studio on Mac
+1. Tested on VS Code on Windows
+1. Tested on Visual Studio on Windows
+
+# Concepts Included in this Project
+
+1. Uses a In Memory Database with Entity Framework.
+1. A simple controller generated using dotnet-aspnet-codegenerator.
+1. Swagger UI already bundled.
 
 # Hire Me
 
