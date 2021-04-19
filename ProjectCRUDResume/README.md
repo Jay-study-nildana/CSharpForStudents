@@ -6,13 +6,13 @@ This is a demo api server.
 
 If you have an online SQL server (for example, on Azure, may be)
 
-check file sqlserver.md
+check file [sqlserver.md](sqlserver.md)
 
 # working with local database MDF file
 
 If you want to run this project with a local database.
 
-check file createnewmdf.md.
+check file [createnewmdf.md](createnewmdf.md)
 
 # some points of note
 
@@ -42,6 +42,3 @@ I work as a full time freelance software developer and coding tutor. Hire me at 
 This code is provided as is without any warranties. It's primarily meant for my own personal use, and to make it easy for me share code with my students. Feel free to use this code as it pleases you.
 
 I can be reached through my website - [Jay's Developer Profile](https://jay-study-nildana.github.io/developerprofile)
-
-
-

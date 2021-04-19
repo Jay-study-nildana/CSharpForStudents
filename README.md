@@ -8,6 +8,7 @@ repository which contains some essential C sharp, dot net, dot net core and rela
 * [WebApiHelloWorldNET461](WebApiHelloWorldNET461) - a simple hello world asp.net 4.6.1 web api
 * [ProjectCRUDResume](ProjectCRUDResume) - a functional asp.net 4.6.1 api server with simple token authentication
 * [WebSocketDemo](WebSocketDemo) - A quick and dirty web socket demo that uses the 'websocket-sharp' library.
+* [SOLIDandDesignPatterns](SOLIDandDesignPatterns) - SOLID and Design Patterns
 
 # Random Stuff Generator
 
