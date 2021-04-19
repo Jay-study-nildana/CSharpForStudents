@@ -4,6 +4,8 @@ Simple hello world 5.0 Project.
 
 1. Tested on VS Code on Mac
 1. Tested on Visual Studio on Mac
+1. Tested on VS Code on Windows
+1. Tested on Visual Studio on Windows
 
 # Hire Me
 
