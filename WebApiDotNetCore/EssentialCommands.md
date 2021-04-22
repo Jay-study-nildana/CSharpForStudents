@@ -16,6 +16,10 @@ Creating a new project.
 
     dotnet new webapi -o TodoApi
 
+Run the Project
+
+    dotnet run
+
 Add Entity Framework, the InMemory version.
 
     dotnet add package Microsoft.EntityFrameworkCore.InMemory

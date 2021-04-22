@@ -20,9 +20,13 @@ Run your app
 
     dotnet run    
 
-Install Entity Framework Core
+Install Entity Framework Core - Sqlite
 
-    dotnet add package Microsoft.EntityFrameworkCore.Sqlite
+    dotnet add package Microsoft.EntityFrameworkCore.Sqlite    
+
+Install Entity Framework Core - SqlServer
+
+    dotnet add package Microsoft.EntityFrameworkCore.SqlServer
 
 Installs dotnet ef and the design package which is required to run the command
 

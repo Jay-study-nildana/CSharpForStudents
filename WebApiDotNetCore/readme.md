@@ -2,10 +2,16 @@
 
 Collection of some basic hello world Web Api projects related to .NET Core 3.X and 5.X.
 
+# Swagger URL
+
+https://localhost:5001/swagger/index.html
+
 # Projects and Solutions
 
 1. [HelloWorldDotNetCore3point1](HelloWorldDotNetCore3point1)
 1. [HelloWorldDotNetCore5point1](HelloWorldDotNetCore5point1)
+1. [WebApiDotNetCore5point1SQLite](WebApiDotNetCore5point1SQLite)
+1. [WebApiDotNetCore5point1SQLserver](WebApiDotNetCore5point1SQLserver)
 
 # Getting Started Notes
 
