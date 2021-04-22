@@ -11,6 +11,7 @@ repository which contains some essential C sharp, dot net, dot net core and rela
 * [SOLIDandDesignPatterns](SOLIDandDesignPatterns) - SOLID and Design Patterns
 * [RestSharpUsageDOTNET452](RestSharpUsageDOTNET452) - Rest Sharp Usage.
 * [WebApiDotNetCore](WebApiDotNetCore) - .NET Core Hello World Web API Projects
+* [EntityFrameWorkDemo](EntityFrameWorkDemo) - Entity FrameWork Console Apps
 
 # Random Stuff Generator
 
