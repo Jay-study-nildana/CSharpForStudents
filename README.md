@@ -2,6 +2,8 @@
 
 repository which contains some essential C sharp, dot net, dot net core and related .NET stuff
 
+Also look at [DeveloperJobDescription.md](DeveloperJobDescription.md) and [ListOfEssentialTopics.md](ListOfEssentialTopics.md) and [readme.md](readme.md)
+
 # Projects For You
 
 * [crudaspnetcore3point1mysql](crudaspnetcore3point1mysql) - a simple CRUD demo that works with mysql localhost with user identity
