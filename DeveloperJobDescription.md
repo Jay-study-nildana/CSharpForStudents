@@ -2,7 +2,7 @@
 
 Here, I have put together a standard job description for a first job of a .NET Developer. 
 
-Also look at [DeveloperJobDescription.md](DeveloperJobDescription.md) and [ListOfEssentialTopics.md](ListOfEssentialTopics.md) and [readme.md](readme.md)
+Also look at [DeveloperJobDescription.md](DeveloperJobDescription.md) and [ListOfEssentialTopics.md](ListOfEssentialTopics.md) and [readme.md](README.md)
 
 # The Job Description
 

@@ -4,7 +4,7 @@ Here is a full list of topics that every .NET developer should know as they star
 
 Wherever available, I have linked the folder which in turns contains more detailed instructions and sample code.
 
-Also look at [DeveloperJobDescription.md](DeveloperJobDescription.md) and [ListOfEssentialTopics.md](ListOfEssentialTopics.md) and [readme.md](readme.md)
+Also look at [DeveloperJobDescription.md](DeveloperJobDescription.md) and [ListOfEssentialTopics.md](ListOfEssentialTopics.md) and [readme.md](README.md)
 
 # List
 

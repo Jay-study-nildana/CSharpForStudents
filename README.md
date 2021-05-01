@@ -2,7 +2,7 @@
 
 repository which contains some essential C sharp, dot net, dot net core and related .NET stuff
 
-Also look at [DeveloperJobDescription.md](DeveloperJobDescription.md) and [ListOfEssentialTopics.md](ListOfEssentialTopics.md) and [readme.md](readme.md)
+Also look at [DeveloperJobDescription.md](DeveloperJobDescription.md) and [ListOfEssentialTopics.md](ListOfEssentialTopics.md) and [readme.md](README.md)
 
 # Projects For You
 
