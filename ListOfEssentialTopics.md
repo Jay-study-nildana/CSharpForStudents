@@ -6,33 +6,34 @@ Wherever available, I have linked the folder which in turns contains more detail
 
 Also look at [DeveloperJobDescription.md](DeveloperJobDescription.md) and [ListOfEssentialTopics.md](ListOfEssentialTopics.md) and [readme.md](README.md)
 
-# List
+# List - Essential Developer Skills
 
-* [SOLIDandDesignPatterns](SOLIDandDesignPatterns) - SOLID and Design Patterns
 * [WebApiDotNetCore](WebApiDotNetCore) - .NET Core Hello World Web API Projects
 * [EntityFrameWorkDemo](EntityFrameWorkDemo) - Entity FrameWork Console Apps - SQL Server AND SQLite.
-* Call the web API with JavaScript
-* Authorization and Authentication
-* Azure API Management
-* Dependency injection
-* Multiple environments
-* Logging
-* Handle errors
-* IHttpClientFactory
-* Static files
-* Swagger / OpenAPI
-* HttpRepl
-* Integration tests
-* load/stress testing
-* Azure Pipeline deploy
-* DevOps
+* [WebApiDotNetCore5point1JSWebAppConsumeAPI](WebApiDotNetCore/WebApiDotNetCore5point1JSWebAppConsumeAPI) - Call the web API with JavaScript
+* [Authorization and Authentication](WebApiDotNetCore/HelloWorldDotNetCore5point1Auth0)
+* [DependencyInjection](DependencyInjection) - Dependency Injection Demos.
+* [LoggingInDotNet](LoggingInDotNet) - Logging related Demos.
+* Handle errors - look at any project, any try and catch blocks.
+* Static files - look at [WebApiDotNetCore5point1JSWebAppConsumeAPI](WebApiDotNetCore/WebApiDotNetCore5point1JSWebAppConsumeAPI) above.
+* Swagger / OpenAPI - dot net comes with bundled swagger for essential use. every project of this repo has swagger already configured.
+* [WebApiDotNetCore5point1SQLiteUnitTesting](WebApiDotNetCore/WebApiDotNetCore5point1SQLiteUnitTesting) - a solution with a api project plust a xunit testing.
+* Azure DevOps
 * Docker
-* Globalization and localization
+* Load Stress Testing JMeter. Best to do this after you have a deployment. That way, you can consume your own deployed API.
+* HttpClient - Best to do this after you have a deployment. That way, you can consume your own deployed API.
 
-# Additional Essential Libraries and Tools
+# Additional Developer Skills and Knowledge
 
 * [RestSharpUsageDOTNET452](RestSharpUsageDOTNET452) - Rest Sharp Usage.
 * [WebSocketDemo](WebSocketDemo) - A quick and dirty web socket demo that uses the 'websocket-sharp' library.
+* [SOLIDandDesignPatterns](SOLIDandDesignPatterns) - SOLID and Design Patterns
+* HttpRepl
+* Globalization and localization
+* Azure API Management
+* Integration tests
+* Secrets Management
+* Multiple environments
 
 # Hire Me
 

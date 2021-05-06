@@ -13,6 +13,7 @@ Also Check [References.md](References.md).
 1. On loading project, 'Debug Assets' will get added. Let it happen. Otherwise, you wont be able to debug.
 1. The, just hit Run > Start Debugging and its good to go.
 1. If OmniSharp gives you a error about mismatched SDK version, just change the global json file to match the currently debugged project version. Easy. 
+1. When adding packages, always specify the version number.
 
 # Hire Me
 

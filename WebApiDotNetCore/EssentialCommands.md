@@ -10,6 +10,12 @@ Also Check [GettingStartedNotes](GettingStartedNotes.md).
 Also Check [EssentialCommands.md](EssentialCommands.md).
 Also Check [References.md](References.md).
 
+# Default URLS
+
+1. https://localhost:5001/swagger/index.html
+1. https://localhost:5001
+1. https://localhost:5000
+
 # Common Commands
 
 Creating a new project.

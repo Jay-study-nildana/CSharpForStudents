@@ -13,6 +13,7 @@ Also Check [References.md](References.md).
 1. https://docs.microsoft.com/en-us/ef/core/providers/?tabs=dotnet-core-cli
 1. https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/create
 1. https://docs.microsoft.com/en-in/ef/core/providers/sql-server/?tabs=dotnet-core-cli
+1. https://stackoverflow.com/questions/46657813/how-to-update-record-using-entity-framework-core
 
 # Additional Links
 
