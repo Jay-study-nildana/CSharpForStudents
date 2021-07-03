@@ -28,6 +28,7 @@ Also look at [DeveloperJobDescription.md](DeveloperJobDescription.md) and [ListO
 * [RestSharpUsageDOTNET452](RestSharpUsageDOTNET452) - Rest Sharp Usage.
 * [WebSocketDemo](WebSocketDemo) - A quick and dirty web socket demo that uses the 'websocket-sharp' library.
 * [SOLIDandDesignPatterns](SOLIDandDesignPatterns) - SOLID and Design Patterns
+* [Consuming3rdPartyAPI](Consuming3rdPartyAPI) - Consuming a 3rd Party API with HttpClient and RestSharp
 * HttpRepl
 * Globalization and localization
 * Azure API Management
