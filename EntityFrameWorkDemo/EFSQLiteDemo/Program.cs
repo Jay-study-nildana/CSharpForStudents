@@ -1,4 +1,7 @@
-﻿using System;
+﻿using EFSQLiteDemo.Enums;
+using EFSQLiteDemo.Interfaces;
+using EFSQLiteDemo.POCO;
+using System;
 using System.Linq;
 
 namespace EFSQLiteDemo
@@ -9,82 +12,72 @@ namespace EFSQLiteDemo
         {
             Console.WriteLine("Hello World!");
 
-            // using (var db = new BloggingContext())
-            // {
-            //     // Note: This sample requires the database to be created before running.
-
-            //     // Create
-            //     Console.WriteLine("Inserting a new blog");
-            //     db.Add(new Blog { Url = "http://blogs.msdn.com/adonet" });
-            //     db.SaveChanges();
-
-            //     // Read
-            //     Console.WriteLine("Querying for a blog");
-            //     var blog = db.Blogs
-            //         .OrderBy(b => b.BlogId)
-            //         .First();
-
-            //     // Update
-            //     Console.WriteLine("Updating the blog and adding a post");
-            //     blog.Url = "https://devblogs.microsoft.com/dotnet";
-            //     blog.Posts.Add(
-            //         new Post { Title = "Hello World", Content = "I wrote an app using EF Core!" });
-            //     db.SaveChanges();
-
-            //     // Delete
-            //     Console.WriteLine("Delete the blog");
-            //     db.Remove(blog);
-            //     db.SaveChanges();
-            // }
-
             using (var db = new KiteDBContext())
             {
-                //uncomment the following to add new items0
 
-                // Kite demoKite1 = new Kite();
-                // demoKite1.KiteColor = "Red";
-                // demoKite1.KiteDesigner = "Jay";
-
-                // Kite demoKite2 = new Kite();
-                // demoKite2.KiteColor = "Blue";
-                // demoKite2.KiteDesigner = "Bay";
-
-                // Kite demoKite3 = new Kite();
-                // demoKite3.KiteColor = "Green";
-                // demoKite3.KiteDesigner = "May";
-
-                // db.Add(demoKite1);
-                // db.Add(demoKite2);
-                // db.Add(demoKite3);
-
-                // db.SaveChanges();
+                #region the basic Kites class add and show
 
                 addSomeKites(db);
 
-                // var listOfKites = db.Kites.ToList();
+                showAllKites(db);
 
-                // foreach (var kite in listOfKites)
-                // {
-                //     Console.WriteLine("Kite Number: " + kite.KiteId);
-                //     Console.WriteLine(kite.KiteColor);
-                //     Console.WriteLine(kite.KiteDesigner);
-                // }
+                #endregion
+
+                #region the KiteUpdateOctober4th related db stuff
+
+                IGetKite getKite = new GetKiteOne();
+                var response = getKite.GiveMeAKite();
+                var response2 = getKite.GiveMeAKite();
+                var response3 = getKite.GiveMeAKite();
+
+                db.Add(response);
+                db.Add(response2);
+                db.Add(response3);
+
+                db.SaveChanges();
+
+                var listOfKites = db.KiteUpdateOctober4ths.ToList();
+
+                foreach (var kite in listOfKites)
+                {
+                    Console.WriteLine("Kite Number: " + kite.KiteId);
+                    Console.WriteLine(kite.KiteColor);
+                    Console.WriteLine(kite.KiteDesigner);
+                    Console.WriteLine(kite.KiteHeight);
+                    Console.WriteLine(kite.KiteWeight);
+                    Console.WriteLine(kite.KiteWidth);
+                    Console.WriteLine("-----------");
+                }
+
+                #endregion
             }
 
+        }
+
+        static void showAllKites(KiteDBContext db)
+        {
+            var listOfKites = db.Kites.ToList();
+
+            foreach (var kite in listOfKites)
+            {
+                Console.WriteLine("Kite Number: " + kite.KiteId);
+                Console.WriteLine(kite.KiteColor);
+                Console.WriteLine(kite.KiteDesigner);
+            }
         }
 
         static void addSomeKites(KiteDBContext db)
         {
             Kite demoKite1 = new Kite();
-            demoKite1.KiteColor = "Purple";
+            demoKite1.KiteColor = ColorEnum.Blue;
             demoKite1.KiteDesigner = "Dee";
 
             Kite demoKite2 = new Kite();
-            demoKite2.KiteColor = "Yellow";
+            demoKite2.KiteColor = ColorEnum.Orange;
             demoKite2.KiteDesigner = "Varun";
 
             Kite demoKite3 = new Kite();
-            demoKite3.KiteColor = "Blue";
+            demoKite3.KiteColor = ColorEnum.Violet;
             demoKite3.KiteDesigner = "Sam";
 
             db.Add(demoKite1);

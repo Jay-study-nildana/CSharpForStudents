@@ -8,33 +8,7 @@ Also look at [DeveloperJobDescription.md](DeveloperJobDescription.md) and [ListO
 
 # List - Essential Developer Skills
 
-* [WebApiDotNetCore](WebApiDotNetCore) - .NET Core Hello World Web API Projects
-* [EntityFrameWorkDemo](EntityFrameWorkDemo) - Entity FrameWork Console Apps - SQL Server AND SQLite.
-* [WebApiDotNetCore5point1JSWebAppConsumeAPI](WebApiDotNetCore/WebApiDotNetCore5point1JSWebAppConsumeAPI) - Call the web API with JavaScript
-* [Authorization and Authentication](WebApiDotNetCore/HelloWorldDotNetCore5point1Auth0)
-* [DependencyInjection](DependencyInjection) - Dependency Injection Demos.
-* [LoggingInDotNet](LoggingInDotNet) - Logging related Demos.
-* Handle errors - look at any project, any try and catch blocks.
-* Static files - look at [WebApiDotNetCore5point1JSWebAppConsumeAPI](WebApiDotNetCore/WebApiDotNetCore5point1JSWebAppConsumeAPI) above.
-* Swagger / OpenAPI - dot net comes with bundled swagger for essential use. every project of this repo has swagger already configured.
-* [WebApiDotNetCore5point1SQLiteUnitTesting](WebApiDotNetCore/WebApiDotNetCore5point1SQLiteUnitTesting) - a solution with a api project plust a xunit testing.
-* Azure DevOps
-* Docker
-* Load Stress Testing JMeter. Best to do this after you have a deployment. That way, you can consume your own deployed API.
-* HttpClient - Best to do this after you have a deployment. That way, you can consume your own deployed API.
-
-# Additional Developer Skills and Knowledge
-
-* [RestSharpUsageDOTNET452](RestSharpUsageDOTNET452) - Rest Sharp Usage.
-* [WebSocketDemo](WebSocketDemo) - A quick and dirty web socket demo that uses the 'websocket-sharp' library.
-* [SOLIDandDesignPatterns](SOLIDandDesignPatterns) - SOLID and Design Patterns
-* [Consuming3rdPartyAPI](Consuming3rdPartyAPI) - Consuming a 3rd Party API with HttpClient and RestSharp
-* HttpRepl
-* Globalization and localization
-* Azure API Management
-* Integration tests
-* Secrets Management
-* Multiple environments
+TODO - To be Updated. 
 
 # Hire Me
 

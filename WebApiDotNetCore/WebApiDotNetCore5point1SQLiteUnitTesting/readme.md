@@ -1,5 +1,7 @@
 # .NET Core 5.0 Project with xUnit Testing
 
+Simple web api with some unit tests. 
+
 Also look at [EssentialCommands.md](EssentialCommands.md)
 
 # things to remember
@@ -8,33 +10,11 @@ Also look at [EssentialCommands.md](EssentialCommands.md)
 1. You must know how to implement interfaces. Check file IItemForOneHelper.cs
 1. Unit Testing is always a separate project. 
 1. Look at files for IItemForOneUnitTest.cs and UnitTest1.cs.
-
-# running the project
-
-This is a solution project. so, you cannot use 'dotnet run'. You need to use the 'Run' option in visual studio code. Or, run this project from visual studio on Mac or visual studio on Windows.
-
-# running the unit tests
-
-    dotnet test
-
-# other stuff
-
-Simple hello world WebApi 5.0 Project. 
-
-1. Tested on VS Code on Mac
-1. Tested on Visual Studio on Mac
-1. Tested on VS Code on Windows
-1. Tested on Visual Studio on Windows
+1. You may have to add the unit test project manually in visual studio. It may not show up automatically.
 
 # SQLite data browsing.
 
 Use the DB Browser SQLite Tool. https://sqlitebrowser.org/
-
-# Concepts Included in this Project
-
-1. Uses a SQLite Database with Entity Framework.
-1. A simple controller generated using dotnet-aspnet-codegenerator.
-1. Swagger UI already bundled.
 
 # References
 

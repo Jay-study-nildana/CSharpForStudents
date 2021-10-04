@@ -14,12 +14,11 @@ namespace Consuming3rdPartyAPI
 
         static async Task Main()
         {
-            //uncomment what you want to call
 
-            //await CallContoso();
+            await CallContoso();
             await CallRandomStuff();
             await CallRandomStuffWithTypes();
-            await CallRandomStuffWithTypesRestSharp();
+            await CallRandomStuffWithTypesRestSharpExceptionsIncluded();
         }
 
         //calling contoso.com
@@ -106,7 +105,7 @@ namespace Consuming3rdPartyAPI
             displayHelper.ShowALine();
         }
 
-        static async Task CallRandomStuffWithTypesRestSharp()
+        static async Task CallRandomStuffWithTypesRestSharpExceptionsIncluded()
         {
             DisplayHelper displayHelper = new DisplayHelper();
             displayHelper.ShowTheThing("Now Calling CallRandomStuffWithTypesRestSharp..........");

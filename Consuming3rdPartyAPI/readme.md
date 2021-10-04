@@ -9,8 +9,9 @@ In such scenarios, you will have use web libraries to consume APIs.
 
 # References
 
-1. https://docs.microsoft.com/en-us/dotnet/api/system.net.http.httpclient?view=net-5.0
-1. https://restsharp.dev/getting-started/
+1. https://docs.microsoft.com/en-us/dotnet/api/system.net.http.httpclient?view=net-5.0 - the main http web api calling client.
+1. https://restsharp.dev/getting-started/ - used to call web api. popular library.
+1. https://quicktype.io/ - used for conversion between json and c # POCO classes.
 
 # Hire Me
 

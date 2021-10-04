@@ -1,9 +1,11 @@
 using System.Collections.Generic;
+using EFSQLiteDemo.Model;
 using Microsoft.EntityFrameworkCore;
 
 public class KiteDBContext : DbContext
 {
     public DbSet<Kite> Kites { get; set; }
+    public DbSet<KiteUpdateOctober4th> KiteUpdateOctober4ths { get; set; }
 
     // The following configures EF to create a Sqlite database file as `C:\blogging.db`.
     // For Mac or Linux, change this to `/tmp/blogging.db` or any other absolute path.

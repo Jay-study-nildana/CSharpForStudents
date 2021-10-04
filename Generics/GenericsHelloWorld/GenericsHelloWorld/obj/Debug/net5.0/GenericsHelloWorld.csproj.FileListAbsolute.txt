@@ -1,0 +1,15 @@
+C:\code\DotNetConceptsPrivate\CSharpForStudents\Generics\GenericsHelloWorld\GenericsHelloWorld\bin\Debug\net5.0\GenericsHelloWorld.exe
+C:\code\DotNetConceptsPrivate\CSharpForStudents\Generics\GenericsHelloWorld\GenericsHelloWorld\bin\Debug\net5.0\GenericsHelloWorld.deps.json
+C:\code\DotNetConceptsPrivate\CSharpForStudents\Generics\GenericsHelloWorld\GenericsHelloWorld\bin\Debug\net5.0\GenericsHelloWorld.runtimeconfig.json
+C:\code\DotNetConceptsPrivate\CSharpForStudents\Generics\GenericsHelloWorld\GenericsHelloWorld\bin\Debug\net5.0\GenericsHelloWorld.runtimeconfig.dev.json
+C:\code\DotNetConceptsPrivate\CSharpForStudents\Generics\GenericsHelloWorld\GenericsHelloWorld\bin\Debug\net5.0\GenericsHelloWorld.dll
+C:\code\DotNetConceptsPrivate\CSharpForStudents\Generics\GenericsHelloWorld\GenericsHelloWorld\bin\Debug\net5.0\ref\GenericsHelloWorld.dll
+C:\code\DotNetConceptsPrivate\CSharpForStudents\Generics\GenericsHelloWorld\GenericsHelloWorld\bin\Debug\net5.0\GenericsHelloWorld.pdb
+C:\code\DotNetConceptsPrivate\CSharpForStudents\Generics\GenericsHelloWorld\GenericsHelloWorld\obj\Debug\net5.0\GenericsHelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+C:\code\DotNetConceptsPrivate\CSharpForStudents\Generics\GenericsHelloWorld\GenericsHelloWorld\obj\Debug\net5.0\GenericsHelloWorld.AssemblyInfoInputs.cache
+C:\code\DotNetConceptsPrivate\CSharpForStudents\Generics\GenericsHelloWorld\GenericsHelloWorld\obj\Debug\net5.0\GenericsHelloWorld.AssemblyInfo.cs
+C:\code\DotNetConceptsPrivate\CSharpForStudents\Generics\GenericsHelloWorld\GenericsHelloWorld\obj\Debug\net5.0\GenericsHelloWorld.csproj.CoreCompileInputs.cache
+C:\code\DotNetConceptsPrivate\CSharpForStudents\Generics\GenericsHelloWorld\GenericsHelloWorld\obj\Debug\net5.0\GenericsHelloWorld.dll
+C:\code\DotNetConceptsPrivate\CSharpForStudents\Generics\GenericsHelloWorld\GenericsHelloWorld\obj\Debug\net5.0\ref\GenericsHelloWorld.dll
+C:\code\DotNetConceptsPrivate\CSharpForStudents\Generics\GenericsHelloWorld\GenericsHelloWorld\obj\Debug\net5.0\GenericsHelloWorld.pdb
+C:\code\DotNetConceptsPrivate\CSharpForStudents\Generics\GenericsHelloWorld\GenericsHelloWorld\obj\Debug\net5.0\GenericsHelloWorld.genruntimeconfig.cache

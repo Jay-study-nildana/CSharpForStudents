@@ -2,10 +2,7 @@
 
 Simple hello world WebApi 5.0 Project. 
 
-1. Tested on VS Code on Mac
-1. Tested on Visual Studio on Mac
-1. Tested on VS Code on Windows
-1. Tested on Visual Studio on Windows
+Note : I havent checked this in a while. It may not work. but can be used as a code reference.
 
 # Connection String
 

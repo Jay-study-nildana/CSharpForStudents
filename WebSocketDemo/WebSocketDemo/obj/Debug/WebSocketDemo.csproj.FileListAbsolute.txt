@@ -1,0 +1,10 @@
+C:\code\DotNetConceptsPrivate\CSharpForStudents\WebSocketDemo\WebSocketDemo\bin\Debug\WebSocketDemo.exe.config
+C:\code\DotNetConceptsPrivate\CSharpForStudents\WebSocketDemo\WebSocketDemo\bin\Debug\WebSocketDemo.exe
+C:\code\DotNetConceptsPrivate\CSharpForStudents\WebSocketDemo\WebSocketDemo\bin\Debug\WebSocketDemo.pdb
+C:\code\DotNetConceptsPrivate\CSharpForStudents\WebSocketDemo\WebSocketDemo\bin\Debug\websocket-sharp.dll
+C:\code\DotNetConceptsPrivate\CSharpForStudents\WebSocketDemo\WebSocketDemo\bin\Debug\websocket-sharp.xml
+C:\code\DotNetConceptsPrivate\CSharpForStudents\WebSocketDemo\WebSocketDemo\obj\Debug\WebSocketDemo.csproj.AssemblyReference.cache
+C:\code\DotNetConceptsPrivate\CSharpForStudents\WebSocketDemo\WebSocketDemo\obj\Debug\WebSocketDemo.csproj.CoreCompileInputs.cache
+C:\code\DotNetConceptsPrivate\CSharpForStudents\WebSocketDemo\WebSocketDemo\obj\Debug\WebSocketDemo.csproj.CopyComplete
+C:\code\DotNetConceptsPrivate\CSharpForStudents\WebSocketDemo\WebSocketDemo\obj\Debug\WebSocketDemo.exe
+C:\code\DotNetConceptsPrivate\CSharpForStudents\WebSocketDemo\WebSocketDemo\obj\Debug\WebSocketDemo.pdb

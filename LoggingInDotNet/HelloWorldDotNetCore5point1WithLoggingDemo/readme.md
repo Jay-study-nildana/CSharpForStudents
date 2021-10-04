@@ -1,26 +1,12 @@
 # .NET Core 5.0 Project
 
-Here, I am focusing on logging. 
+Web API Controller project with simple logging in the controllers.
 
-Look at file - TodoItemsController. It has a ton of comments related to logging.
+# Some Notes
 
-Look at file - appsettings.json. That is where different logging levels are configured in a section called "Logging".
-
-# Tested On
-
-Simple hello world WebApi 5.0 Project. 
-
-1. Tested on VS Code on Mac
-1. Tested on Visual Studio on Mac
-1. Tested on VS Code on Windows
-1. Tested on Visual Studio on Windows
-
-# Concepts Included in this Project
-
-1. Uses a In Memory Database with Entity Framework.
-1. A simple controller generated using dotnet-aspnet-codegenerator.
-1. Swagger UI already bundled.
-1. Logging 
+1. Look at file - TodoItemsController. It has a ton of comments related to logging.
+1. Look at file - appsettings.json. That is where different logging levels are configured in a section called "Logging".
+1. The logging output appears in the output window > Project Name.
 
 # References
 

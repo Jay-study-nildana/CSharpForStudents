@@ -1,6 +1,6 @@
 # Dot Net Core Hello World Web Api
 
-Collection of some basic hello world Web Api projects related to .NET Core 3.X and 5.X.
+Collection of some basic hello world Web Api projects.
 
 # Swagger URL
 
@@ -8,13 +8,10 @@ https://localhost:5001/swagger/index.html
 
 # Projects and Solutions
 
-1. [HelloWorldDotNetCore3point1](HelloWorldDotNetCore3point1) - A quick web api demo with no database. .NET Core 3.X
-1. [HelloWorldDotNetCore5point1](HelloWorldDotNetCore5point1) - A quick web api demo with no database. .NET Core 5.X
-1. [WebApiDotNetCore5point1SQLite](WebApiDotNetCore5point1SQLite) - A quick web api demo with SQLite database.
 1. [WebApiDotNetCore5point1SQLserver](WebApiDotNetCore5point1SQLserver) - A quick web api demo with Microsoft SQL Server database.
-1. [WebApiDotNetCore5point1JSWebAppConsumeAPI](WebApiDotNetCore5point1JSWebAppConsumeAPI) - Call the web API with JavaScript from within dot net core project.
 1. [HelloWorldDotNetCore5point1Auth0](HelloWorldDotNetCore5point1Auth0) - Auth0 OAuth2 Configuration With BackEnd API and Single Page Application Web App - 2 projects.
 1. [WebApiDotNetCore5point1SQLiteUnitTesting](WebApiDotNetCore5point1SQLiteUnitTesting) - web api with SQLite with Unit Testing.
+1. [WebApiHelloWorldNET461](WebApiHelloWorldNET461) - simple web api of old school 4.6.x
 
 # Getting Started Notes
 

@@ -12,7 +12,7 @@ namespace EFSQLiteDemo.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "5.0.5");
+                .HasAnnotation("ProductVersion", "5.0.10");
 
             modelBuilder.Entity("Kite", b =>
                 {
@@ -20,8 +20,12 @@ namespace EFSQLiteDemo.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("KiteColor")
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
                         .HasColumnType("TEXT");
+
+                    b.Property<int>("KiteColor")
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("KiteDesigner")
                         .HasColumnType("TEXT");
@@ -29,6 +33,24 @@ namespace EFSQLiteDemo.Migrations
                     b.HasKey("KiteId");
 
                     b.ToTable("Kites");
+
+                    b.HasDiscriminator<string>("Discriminator").HasValue("Kite");
+                });
+
+            modelBuilder.Entity("EFSQLiteDemo.Model.KiteUpdateOctober4th", b =>
+                {
+                    b.HasBaseType("Kite");
+
+                    b.Property<int>("KiteHeight")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<double>("KiteWeight")
+                        .HasColumnType("REAL");
+
+                    b.Property<int>("KiteWidth")
+                        .HasColumnType("INTEGER");
+
+                    b.HasDiscriminator().HasValue("KiteUpdateOctober4th");
                 });
 #pragma warning restore 612, 618
         }

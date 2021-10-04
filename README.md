@@ -8,15 +8,10 @@ Also look at [DeveloperJobDescription.md](DeveloperJobDescription.md) and [ListO
 
 This list is a jumble on many, and often, unrelated code related to everything .NET.
 
-* [crudaspnetcore3point1mysql](crudaspnetcore3point1mysql) - a simple CRUD demo that works with mysql localhost with user identity
-* [WebApiHelloWorldNET461](WebApiHelloWorldNET461) - a simple hello world asp.net 4.6.1 web api
 * [ProjectCRUDResume](ProjectCRUDResume) - a functional asp.net 4.6.1 api server with simple token authentication
 * [WebSocketDemo](WebSocketDemo) - A quick and dirty web socket demo that uses the 'websocket-sharp' library.
-* [SOLIDandDesignPatterns](SOLIDandDesignPatterns) - SOLID and Design Patterns
-* [RestSharpUsageDOTNET452](RestSharpUsageDOTNET452) - Rest Sharp Usage.
 * [WebApiDotNetCore](WebApiDotNetCore) - .NET Core Hello World Web API Projects
 * [EntityFrameWorkDemo](EntityFrameWorkDemo) - Entity FrameWork Console Apps
-* [DependencyInjection](DependencyInjection) - Dependency Injection Demos.
 * [LoggingInDotNet](LoggingInDotNet) - Logging related Demos.
 * [Consuming3rdPartyAPI](Consuming3rdPartyAPI) - Consuming a 3rd Party API with HttpClient and RestSharp
 
