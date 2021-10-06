@@ -14,6 +14,7 @@ This list is a jumble on many, and often, unrelated code related to everything .
 * [EntityFrameWorkDemo](EntityFrameWorkDemo) - Entity FrameWork Console Apps
 * [LoggingInDotNet](LoggingInDotNet) - Logging related Demos.
 * [Consuming3rdPartyAPI](Consuming3rdPartyAPI) - Consuming a 3rd Party API with HttpClient and RestSharp
+* [TestingandMocking](TestingandMocking) - Testing and Mocking related projects.
 
 Note: The document [ListOfEssentialTopics.md](ListOfEssentialTopics.md) has a far more detailed list with specific topics aimed at become a .NET Web Api Developer.
 
