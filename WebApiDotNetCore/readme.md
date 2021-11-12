@@ -2,10 +2,6 @@
 
 Collection of some basic hello world Web Api projects.
 
-# Swagger URL
-
-https://localhost:5001/swagger/index.html
-
 # Projects and Solutions
 
 1. [WebApiDotNetCore5point1SQLserver](WebApiDotNetCore5point1SQLserver) - A quick web api demo with Microsoft SQL Server database.

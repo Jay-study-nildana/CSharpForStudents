@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorPattern", "IteratorPattern\IteratorPattern.csproj", "{38E8C2FA-6772-40F4-9EBD-5AC1A4B312ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatmanVillains", "BatmanVillains\BatmanVillains.csproj", "{CC48A58E-E9EA-4C72-B869-62A362E2AEBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38E8C2FA-6772-40F4-9EBD-5AC1A4B312ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38E8C2FA-6772-40F4-9EBD-5AC1A4B312ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38E8C2FA-6772-40F4-9EBD-5AC1A4B312ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38E8C2FA-6772-40F4-9EBD-5AC1A4B312ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC48A58E-E9EA-4C72-B869-62A362E2AEBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC48A58E-E9EA-4C72-B869-62A362E2AEBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC48A58E-E9EA-4C72-B869-62A362E2AEBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC48A58E-E9EA-4C72-B869-62A362E2AEBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1EBC7D10-4DE1-4970-9DD6-8940A1224E4C}
+	EndGlobalSection
+EndGlobal

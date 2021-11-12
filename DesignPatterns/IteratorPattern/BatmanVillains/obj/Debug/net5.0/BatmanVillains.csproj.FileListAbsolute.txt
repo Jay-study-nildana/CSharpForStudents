@@ -1,0 +1,12 @@
+C:\code\CSharpForStudents\DesignPatterns\IteratorPattern\BatmanVillains\bin\Debug\net5.0\BatmanVillains.deps.json
+C:\code\CSharpForStudents\DesignPatterns\IteratorPattern\BatmanVillains\bin\Debug\net5.0\BatmanVillains.dll
+C:\code\CSharpForStudents\DesignPatterns\IteratorPattern\BatmanVillains\bin\Debug\net5.0\ref\BatmanVillains.dll
+C:\code\CSharpForStudents\DesignPatterns\IteratorPattern\BatmanVillains\bin\Debug\net5.0\BatmanVillains.pdb
+C:\code\CSharpForStudents\DesignPatterns\IteratorPattern\BatmanVillains\obj\Debug\net5.0\BatmanVillains.GeneratedMSBuildEditorConfig.editorconfig
+C:\code\CSharpForStudents\DesignPatterns\IteratorPattern\BatmanVillains\obj\Debug\net5.0\BatmanVillains.AssemblyInfoInputs.cache
+C:\code\CSharpForStudents\DesignPatterns\IteratorPattern\BatmanVillains\obj\Debug\net5.0\BatmanVillains.AssemblyInfo.cs
+C:\code\CSharpForStudents\DesignPatterns\IteratorPattern\BatmanVillains\obj\Debug\net5.0\BatmanVillains.csproj.CoreCompileInputs.cache
+C:\code\CSharpForStudents\DesignPatterns\IteratorPattern\BatmanVillains\obj\Debug\net5.0\BatmanVillains.dll
+C:\code\CSharpForStudents\DesignPatterns\IteratorPattern\BatmanVillains\obj\Debug\net5.0\ref\BatmanVillains.dll
+C:\code\CSharpForStudents\DesignPatterns\IteratorPattern\BatmanVillains\obj\Debug\net5.0\BatmanVillains.pdb
+C:\code\CSharpForStudents\DesignPatterns\IteratorPattern\BatmanVillains\obj\Debug\net5.0\BatmanVillains.csproj.AssemblyReference.cache

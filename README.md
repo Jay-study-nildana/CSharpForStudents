@@ -11,10 +11,14 @@ This list is a jumble on many, and often, unrelated code related to everything .
 * [ProjectCRUDResume](ProjectCRUDResume) - a functional asp.net 4.6.1 api server with simple token authentication
 * [WebSocketDemo](WebSocketDemo) - A quick and dirty web socket demo that uses the 'websocket-sharp' library.
 * [WebApiDotNetCore](WebApiDotNetCore) - .NET Core Hello World Web API Projects
+* [WebApiDotNet6](WebApiDotNet6) - .NET 6 Projects
 * [EntityFrameWorkDemo](EntityFrameWorkDemo) - Entity FrameWork Console Apps
 * [LoggingInDotNet](LoggingInDotNet) - Logging related Demos.
 * [Consuming3rdPartyAPI](Consuming3rdPartyAPI) - Consuming a 3rd Party API with HttpClient and RestSharp
 * [TestingandMocking](TestingandMocking) - Testing and Mocking related projects.
+* [SOLIDPrinciples](SOLIDPrinciples) - SOLID Principles.
+* [DesignPatterns](DesignPatterns) - Design Patterns
+* [Generics](Generics) - Demo about Generics
 
 Note: The document [ListOfEssentialTopics.md](ListOfEssentialTopics.md) has a far more detailed list with specific topics aimed at become a .NET Web Api Developer.
 

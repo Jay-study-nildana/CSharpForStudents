@@ -2,7 +2,9 @@
 
 A quick and simple EF Core demo with SQLite.
 
-# Important Note
+Note : check the notes below if you keep getting 'table not found' exceptions. This happens because, the project cannot locate the database.
+
+# Important Note about SQLite Path Issues - Part One
 
 1. Recent changes on how EF Core works. 
 1. You need to install 'Install-Package Microsoft.EntityFrameworkCore.Tools'. Previously, this was not there or was not required. 
@@ -23,6 +25,37 @@ A quick and simple EF Core demo with SQLite.
     Update-Database
 
     ```
+
+# Important Note about SQLite Path Issues - Part Two
+
+You could also do something like this. 
+
+```
+    // Reference: https://docs.microsoft.com/en-us/ef/core/get-started/overview/first-app?tabs=netcore-cli
+    public class BloggingContext : DbContext
+    {
+        public DbSet<Post> Posts { get; set; }
+
+        public string DbPath { get; private set; }
+
+        public BloggingContext()
+        {
+            var folder = Environment.SpecialFolder.LocalApplicationData;
+            var path = Environment.GetFolderPath(folder);
+            DbPath = $"{path}{System.IO.Path.DirectorySeparatorChar}blogging.db";
+        }
+
+        // The following configures EF to create a Sqlite database file in the
+        // special "local" folder for your platform.
+        protected override void OnConfiguring(DbContextOptionsBuilder options)
+            => options.UseSqlite($"Data Source={DbPath}");
+    }
+
+```
+
+# Important Note about SQLite Path Issues - Part Three
+
+Or, you could manually provide a path to any location on your computer. Dont let the computer create the path for yourself and make the sqlite db file go where you want it to go.
 
 # Hire Me
 
