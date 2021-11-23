@@ -4,8 +4,9 @@ Collection of some basic hello world Web Api projects.
 
 # Projects
 
-1. [TodoApi](TodoApi)
-1. [TodoApiMinimal](TodoApiMinimal)
+1. [TodoApi](TodoApi) - Simple, memory only EF Core Web Api
+1. [TodoApiMinimal](TodoApiMinimal) - Simple, memory only EF Core Web Api using the new minimal API system of .NET 6
+1. [DotNet6APIEFCoreSQLite](DotNet6APIEFCoreSQLite) - demo API with EF Core with SQLite database with azure web app deployment instructions.
 
 # Hire Me
 

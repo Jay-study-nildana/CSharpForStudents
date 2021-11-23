@@ -1,0 +1,12 @@
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\Batman\bin\Debug\net5.0\Batman.deps.json
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\Batman\bin\Debug\net5.0\Batman.dll
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\Batman\bin\Debug\net5.0\ref\Batman.dll
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\Batman\bin\Debug\net5.0\Batman.pdb
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\Batman\obj\Debug\net5.0\Batman.csproj.AssemblyReference.cache
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\Batman\obj\Debug\net5.0\Batman.GeneratedMSBuildEditorConfig.editorconfig
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\Batman\obj\Debug\net5.0\Batman.AssemblyInfoInputs.cache
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\Batman\obj\Debug\net5.0\Batman.AssemblyInfo.cs
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\Batman\obj\Debug\net5.0\Batman.csproj.CoreCompileInputs.cache
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\Batman\obj\Debug\net5.0\Batman.dll
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\Batman\obj\Debug\net5.0\ref\Batman.dll
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\Batman\obj\Debug\net5.0\Batman.pdb

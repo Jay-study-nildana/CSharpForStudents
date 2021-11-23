@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "tmHoXBiyjtZnD912XmqZquotuuW24YrZR97al0P6vjObAI5LJM7qy1N9PRJH8gf5EgYTPO5wGOgRzmsKtUGe8g==",
+  "dgSpecHash": "uDChiZO13eJPUDnllyW+twOoLC+dnisvDNK/RoV924TGheHJ2eZe6oTp63kTMhNcnVopgeo446FH4A0qUtzNnQ==",
   "success": true,
   "projectFilePath": "C:\\code\\DotNetConceptsPrivate\\CSharpForStudents\\DesignPatterns\\IteratorPattern\\IteratorPattern\\IteratorPattern.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\vijay\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
   "logs": []
 }

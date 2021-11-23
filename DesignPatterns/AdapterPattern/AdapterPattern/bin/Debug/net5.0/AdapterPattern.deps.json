@@ -1,0 +1,88 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "AdapterPattern/1.0.0": {
+        "dependencies": {
+          "BatmanVillains": "1.0.0",
+          "Superman": "1.0.0",
+          "SupermanVillains": "1.0.0",
+          "VillainsGeneric": "1.0.0"
+        },
+        "runtime": {
+          "AdapterPattern.dll": {}
+        }
+      },
+      "BatmanVillains/1.0.0": {
+        "dependencies": {
+          "VillainsGeneric": "1.0.0"
+        },
+        "runtime": {
+          "BatmanVillains.dll": {}
+        }
+      },
+      "HeroesGeneric/1.0.0": {
+        "runtime": {
+          "HeroesGeneric.dll": {}
+        }
+      },
+      "Superman/1.0.0": {
+        "dependencies": {
+          "HeroesGeneric": "1.0.0"
+        },
+        "runtime": {
+          "Superman.dll": {}
+        }
+      },
+      "SupermanVillains/1.0.0": {
+        "dependencies": {
+          "VillainsGeneric": "1.0.0"
+        },
+        "runtime": {
+          "SupermanVillains.dll": {}
+        }
+      },
+      "VillainsGeneric/1.0.0": {
+        "runtime": {
+          "VillainsGeneric.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AdapterPattern/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BatmanVillains/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HeroesGeneric/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Superman/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SupermanVillains/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VillainsGeneric/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

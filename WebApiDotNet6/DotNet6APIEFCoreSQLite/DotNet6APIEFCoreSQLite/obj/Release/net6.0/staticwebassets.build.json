@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "m8NQvK4wsNmFTmciHYRLT+J4zp4cj0Z33k0RlnttTls=",
+  "Source": "DotNet6APIEFCoreSQLite",
+  "BasePath": "_content/DotNet6APIEFCoreSQLite",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DotNet6APIEFCoreSQLite\\wwwroot",
+      "Source": "DotNet6APIEFCoreSQLite",
+      "ContentRoot": "C:\\code\\DotNetConceptsPrivate\\CSharpForStudents\\WebApiDotNet6\\DotNet6APIEFCoreSQLite\\DotNet6APIEFCoreSQLite\\wwwroot\\",
+      "BasePath": "_content/DotNet6APIEFCoreSQLite",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\code\\DotNetConceptsPrivate\\CSharpForStudents\\WebApiDotNet6\\DotNet6APIEFCoreSQLite\\DotNet6APIEFCoreSQLite\\wwwroot\\index.html",
+      "SourceId": "DotNet6APIEFCoreSQLite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\code\\DotNetConceptsPrivate\\CSharpForStudents\\WebApiDotNet6\\DotNet6APIEFCoreSQLite\\DotNet6APIEFCoreSQLite\\wwwroot\\",
+      "BasePath": "_content/DotNet6APIEFCoreSQLite",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\code\\DotNetConceptsPrivate\\CSharpForStudents\\WebApiDotNet6\\DotNet6APIEFCoreSQLite\\DotNet6APIEFCoreSQLite\\wwwroot\\script.js",
+      "SourceId": "DotNet6APIEFCoreSQLite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\code\\DotNetConceptsPrivate\\CSharpForStudents\\WebApiDotNet6\\DotNet6APIEFCoreSQLite\\DotNet6APIEFCoreSQLite\\wwwroot\\",
+      "BasePath": "_content/DotNet6APIEFCoreSQLite",
+      "RelativePath": "script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\script.js"
+    },
+    {
+      "Identity": "C:\\code\\DotNetConceptsPrivate\\CSharpForStudents\\WebApiDotNet6\\DotNet6APIEFCoreSQLite\\DotNet6APIEFCoreSQLite\\wwwroot\\style.css",
+      "SourceId": "DotNet6APIEFCoreSQLite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\code\\DotNetConceptsPrivate\\CSharpForStudents\\WebApiDotNet6\\DotNet6APIEFCoreSQLite\\DotNet6APIEFCoreSQLite\\wwwroot\\",
+      "BasePath": "_content/DotNet6APIEFCoreSQLite",
+      "RelativePath": "style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
+    }
+  ]
+}

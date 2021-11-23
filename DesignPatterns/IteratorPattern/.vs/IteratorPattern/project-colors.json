@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "38e8c2fa-6772-40f4-9ebd-5ac1a4b312ed": {
+      "ProjectGuid": "38e8c2fa-6772-40f4-9ebd-5ac1a4b312ed",
+      "DisplayName": "IteratorPattern",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "736bbfbb-65e0-4241-899b-00fed22de3e5": {
+      "ProjectGuid": "736bbfbb-65e0-4241-899b-00fed22de3e5",
+      "DisplayName": "BatmanVillains",
+      "ColorIndex": 1
+    },
+    "38741a59-62cf-480d-8a53-f4e70be1b696": {
+      "ProjectGuid": "38741a59-62cf-480d-8a53-f4e70be1b696",
+      "DisplayName": "VillainsGeneric",
+      "ColorIndex": 2
+    },
+    "dbc9e86a-26ee-40f0-861b-3fa85b208ded": {
+      "ProjectGuid": "dbc9e86a-26ee-40f0-861b-3fa85b208ded",
+      "DisplayName": "BatmanVillains",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ca300601-bfa5-4e03-861f-865535c033ad": {
+      "ProjectGuid": "ca300601-bfa5-4e03-861f-865535c033ad",
+      "DisplayName": "DotNet6APIEFCoreSQLite",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

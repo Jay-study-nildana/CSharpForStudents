@@ -8,15 +8,24 @@
     ".NETCoreApp,Version=v5.0": {
       "IteratorPattern/1.0.0": {
         "dependencies": {
-          "BatmanVillains": "1.0.0"
+          "BatmanVillains": "1.0.0",
+          "VillainsGeneric": "1.0.0"
         },
         "runtime": {
           "IteratorPattern.dll": {}
         }
       },
       "BatmanVillains/1.0.0": {
+        "dependencies": {
+          "VillainsGeneric": "1.0.0"
+        },
         "runtime": {
           "BatmanVillains.dll": {}
+        }
+      },
+      "VillainsGeneric/1.0.0": {
+        "runtime": {
+          "VillainsGeneric.dll": {}
         }
       }
     }
@@ -28,6 +37,11 @@
       "sha512": ""
     },
     "BatmanVillains/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VillainsGeneric/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

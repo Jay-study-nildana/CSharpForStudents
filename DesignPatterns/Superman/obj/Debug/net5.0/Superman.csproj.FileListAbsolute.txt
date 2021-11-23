@@ -1,0 +1,15 @@
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\Superman\bin\Debug\net5.0\Superman.deps.json
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\Superman\bin\Debug\net5.0\Superman.dll
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\Superman\bin\Debug\net5.0\ref\Superman.dll
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\Superman\bin\Debug\net5.0\Superman.pdb
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\Superman\bin\Debug\net5.0\HeroesGeneric.dll
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\Superman\bin\Debug\net5.0\HeroesGeneric.pdb
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\Superman\obj\Debug\net5.0\Superman.csproj.AssemblyReference.cache
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\Superman\obj\Debug\net5.0\Superman.GeneratedMSBuildEditorConfig.editorconfig
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\Superman\obj\Debug\net5.0\Superman.AssemblyInfoInputs.cache
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\Superman\obj\Debug\net5.0\Superman.AssemblyInfo.cs
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\Superman\obj\Debug\net5.0\Superman.csproj.CoreCompileInputs.cache
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\Superman\obj\Debug\net5.0\Superman.csproj.CopyComplete
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\Superman\obj\Debug\net5.0\Superman.dll
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\Superman\obj\Debug\net5.0\ref\Superman.dll
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\Superman\obj\Debug\net5.0\Superman.pdb

@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "44f04ad8-3475-4a4b-a974-57ba396f039a": {
+      "ProjectGuid": "44f04ad8-3475-4a4b-a974-57ba396f039a",
+      "DisplayName": "AdapterPattern",
+      "ColorIndex": 0
+    },
+    "2c3323c0-b7df-4946-878a-47e9792cfcea": {
+      "ProjectGuid": "2c3323c0-b7df-4946-878a-47e9792cfcea",
+      "DisplayName": "BatmanVillains",
+      "ColorIndex": 1
+    },
+    "1da6ba05-32f3-47b6-900d-13aa206d4262": {
+      "ProjectGuid": "1da6ba05-32f3-47b6-900d-13aa206d4262",
+      "DisplayName": "SupermanVillains",
+      "ColorIndex": 2
+    },
+    "6a350f6c-5d6b-4314-bfed-9cdaa688749b": {
+      "ProjectGuid": "6a350f6c-5d6b-4314-bfed-9cdaa688749b",
+      "DisplayName": "VillainsGeneric",
+      "ColorIndex": 3
+    },
+    "88532003-8816-4bce-860a-130add2bbe97": {
+      "ProjectGuid": "88532003-8816-4bce-860a-130add2bbe97",
+      "DisplayName": "Batman",
+      "ColorIndex": 4
+    },
+    "7ccae8fd-76c0-4782-b2dc-c48c7568ae7c": {
+      "ProjectGuid": "7ccae8fd-76c0-4782-b2dc-c48c7568ae7c",
+      "DisplayName": "Superman",
+      "ColorIndex": 5
+    },
+    "9fb07359-0391-4b2b-b935-460c446a44ec": {
+      "ProjectGuid": "9fb07359-0391-4b2b-b935-460c446a44ec",
+      "DisplayName": "HeroesGeneric",
+      "ColorIndex": 6
+    }
+  },
+  "NextColorIndex": 7
+}

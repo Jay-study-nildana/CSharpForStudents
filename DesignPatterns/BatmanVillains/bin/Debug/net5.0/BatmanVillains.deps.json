@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "BatmanVillains/1.0.0": {
+        "dependencies": {
+          "VillainsGeneric": "1.0.0"
+        },
+        "runtime": {
+          "BatmanVillains.dll": {}
+        }
+      },
+      "VillainsGeneric/1.0.0": {
+        "runtime": {
+          "VillainsGeneric.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BatmanVillains/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VillainsGeneric/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -5,11 +5,24 @@
       "BatmanVillains/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "VillainsGeneric": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BatmanVillains.dll": {}
         },
         "runtime": {
           "bin/placeholder/BatmanVillains.dll": {}
+        }
+      },
+      "VillainsGeneric/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/VillainsGeneric.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VillainsGeneric.dll": {}
         }
       }
     }
@@ -17,13 +30,19 @@
   "libraries": {
     "BatmanVillains/1.0.0": {
       "type": "project",
-      "path": "../BatmanVillains/BatmanVillains.csproj",
-      "msbuildProject": "../BatmanVillains/BatmanVillains.csproj"
+      "path": "../../BatmanVillains/BatmanVillains.csproj",
+      "msbuildProject": "../../BatmanVillains/BatmanVillains.csproj"
+    },
+    "VillainsGeneric/1.0.0": {
+      "type": "project",
+      "path": "../../VillainsGeneric/VillainsGeneric.csproj",
+      "msbuildProject": "../../VillainsGeneric/VillainsGeneric.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "BatmanVillains >= 1.0.0"
+      "BatmanVillains >= 1.0.0",
+      "VillainsGeneric >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -53,8 +72,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\code\\DotNetConceptsPrivate\\CSharpForStudents\\DesignPatterns\\IteratorPattern\\BatmanVillains\\BatmanVillains.csproj": {
-              "projectPath": "C:\\code\\DotNetConceptsPrivate\\CSharpForStudents\\DesignPatterns\\IteratorPattern\\BatmanVillains\\BatmanVillains.csproj"
+            "C:\\code\\DotNetConceptsPrivate\\CSharpForStudents\\DesignPatterns\\BatmanVillains\\BatmanVillains.csproj": {
+              "projectPath": "C:\\code\\DotNetConceptsPrivate\\CSharpForStudents\\DesignPatterns\\BatmanVillains\\BatmanVillains.csproj"
+            },
+            "C:\\code\\DotNetConceptsPrivate\\CSharpForStudents\\DesignPatterns\\VillainsGeneric\\VillainsGeneric.csproj": {
+              "projectPath": "C:\\code\\DotNetConceptsPrivate\\CSharpForStudents\\DesignPatterns\\VillainsGeneric\\VillainsGeneric.csproj"
             }
           }
         }
@@ -78,12 +100,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.12, 5.0.12]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

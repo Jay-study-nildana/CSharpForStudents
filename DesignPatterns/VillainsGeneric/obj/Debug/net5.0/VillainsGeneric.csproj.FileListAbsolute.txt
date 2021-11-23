@@ -1,0 +1,11 @@
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\VillainsGeneric\bin\Debug\net5.0\VillainsGeneric.deps.json
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\VillainsGeneric\bin\Debug\net5.0\VillainsGeneric.dll
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\VillainsGeneric\bin\Debug\net5.0\ref\VillainsGeneric.dll
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\VillainsGeneric\bin\Debug\net5.0\VillainsGeneric.pdb
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\VillainsGeneric\obj\Debug\net5.0\VillainsGeneric.GeneratedMSBuildEditorConfig.editorconfig
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\VillainsGeneric\obj\Debug\net5.0\VillainsGeneric.AssemblyInfoInputs.cache
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\VillainsGeneric\obj\Debug\net5.0\VillainsGeneric.AssemblyInfo.cs
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\VillainsGeneric\obj\Debug\net5.0\VillainsGeneric.csproj.CoreCompileInputs.cache
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\VillainsGeneric\obj\Debug\net5.0\VillainsGeneric.dll
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\VillainsGeneric\obj\Debug\net5.0\ref\VillainsGeneric.dll
+C:\code\DotNetConceptsPrivate\CSharpForStudents\DesignPatterns\VillainsGeneric\obj\Debug\net5.0\VillainsGeneric.pdb

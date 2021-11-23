@@ -6,7 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BatmanVillains\BatmanVillains.csproj" />
+    <ProjectReference Include="..\..\BatmanVillains\BatmanVillains.csproj" />
+    <ProjectReference Include="..\..\VillainsGeneric\VillainsGeneric.csproj" />
   </ItemGroup>
 
 </Project>
