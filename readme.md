@@ -15,6 +15,7 @@ This list is a jumble on many, and often, unrelated code related to everything .
 * [EntityFrameWorkDemo](EntityFrameWorkDemo) - Entity FrameWork Console Apps
 * [LoggingInDotNet](LoggingInDotNet) - Logging related Demos.
 * [Consuming3rdPartyAPI](Consuming3rdPartyAPI) - Consuming a 3rd Party API with HttpClient and RestSharp
+* [ConsumingAPIs](ConsumingAPIs) - Consuming APIs. Another folder.
 * [TestingandMocking](TestingandMocking) - Testing and Mocking related projects.
 * [SOLIDPrinciples](SOLIDPrinciples) - SOLID Principles.
 * [DesignPatterns](DesignPatterns) - Design Patterns
