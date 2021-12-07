@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\BatmanVillains\BatmanVillains.csproj" />
+    <ProjectReference Include="..\..\SupermanVillains\SupermanVillains.csproj" />
+    <ProjectReference Include="..\..\Superman\Superman.csproj" />
+    <ProjectReference Include="..\..\VillainsGeneric\VillainsGeneric.csproj" />
+  </ItemGroup>
+
+</Project>

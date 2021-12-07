@@ -1,0 +1,183 @@
+{
+	"info": {
+		"_postman_id": "79298844-2bb7-40a7-a567-7dd6b29602ab",
+		"name": "TempCSharpForStudents",
+		"description": "Collection Related to csharpforstudents.us.auth0.com",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "api/Auth0Test/public",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{BearerToken}}",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{{{Token}}}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{apiserverhost}}/api/Auth0Test/public",
+					"host": [
+						"{{apiserverhost}}"
+					],
+					"path": [
+						"api",
+						"Auth0Test",
+						"public"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/Auth0Test/private",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{BearerToken}}",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{{{Token}}}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{apiserverhost}}/api/Auth0Test/private",
+					"host": [
+						"{{apiserverhost}}"
+					],
+					"path": [
+						"api",
+						"Auth0Test",
+						"private"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/Auth0Test/private-scoped",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{BearerToken}}",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{{{Token}}}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{apiserverhost}}/api/Auth0Test/private-scoped",
+					"host": [
+						"{{apiserverhost}}"
+					],
+					"path": [
+						"api",
+						"Auth0Test",
+						"private-scoped"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/Auth0Test/claims",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{BearerToken}}",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{{{Token}}}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{apiserverhost}}/api/Auth0Test/claims",
+					"host": [
+						"{{apiserverhost}}"
+					],
+					"path": [
+						"api",
+						"Auth0Test",
+						"claims"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "09718320-8c26-4c16-b152-7dba3e10bf01",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "b984c56b-dc07-4919-a681-d55fe97b4b1a",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "7f85f352-983b-473f-af90-a52c5c6a4d42",
+			"key": "BearerToken",
+			"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImxzVXpRZXpGTThJcGpxdUdIdV9BUyJ9.eyJpc3MiOiJodHRwczovL2NzaGFycGZvcnN0dWRlbnRzLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJqMG81NlAyQm9FcjU2eDgycGU3UVN0UUN0T1gwU3hxVkBjbGllbnRzIiwiYXVkIjoiYmFyaWJhc2ljLmNvbSIsImlhdCI6MTYyMDAyNzUzOSwiZXhwIjoxNjIwMTEzOTM5LCJhenAiOiJqMG81NlAyQm9FcjU2eDgycGU3UVN0UUN0T1gwU3hxViIsImd0eSI6ImNsaWVudC1jcmVkZW50aWFscyJ9.vDaoLSSkDVXJJk87vo7D7cj3CdCmogpPGD6-bILlShnX6E69a9YHf9WwryQJpOT5u5OUj1YOqrkDaKNEaX9VHqTxLKqGcAGeXLewdN7Uj1roWsM7C1k67Es9Lml5ZDf6oXMJLJMbbWXscqsOPopJdcZ9zEM_ATSpfU2DXryKbKuJiVxDtIS2u-LUnbanIm6U-XO3BCjpHF6EDh7T4K5GNvGfi0e2tCe8aTh6j1Exc7u65H8UV9O7kw0dSIihQu8nvxiP50_qMc5K-nq9np3zdPgDX_Vbhm11NbocBqMy-UkMVB4T_c4CdXaQQZUVhugUf56BK0oX8ZEls2UhW8ijdA",
+			"type": "string"
+		},
+		{
+			"id": "e05ace8e-20f6-458d-8c3b-05edf9bd73d3",
+			"key": "apiserverhost",
+			"value": "https://localhost:5001",
+			"type": "string"
+		}
+	],
+	"protocolProfileBehavior": {}
+}

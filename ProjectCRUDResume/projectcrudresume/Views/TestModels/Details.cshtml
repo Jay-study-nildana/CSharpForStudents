@@ -1,0 +1,50 @@
+﻿@model projectcrudresume.DatabaseClasses.TestModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>TestModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Message1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Message1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Message2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Message2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Number1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Number1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Number2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Number2)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

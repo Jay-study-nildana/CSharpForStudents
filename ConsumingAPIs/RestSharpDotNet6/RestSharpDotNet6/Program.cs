@@ -1,0 +1,47 @@
+﻿// See https://aka.ms/new-console-template for more information
+using AllTheInterfaces.Interfaces;
+using APIConsumerHelper;
+using APIConsumerHelper.Implementations;
+using RandomStuffGenerator;
+using RandomStuffGenerator.NewQuote;
+using RandomStuffGenerator.Request;
+
+Console.WriteLine("Hello, World!");
+
+var token = "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Im5VU3l1ZDJBc201NzFtYzVKWmpwYyJ9.eyJpc3MiOiJodHRwczovL3JhbmRvbXF1b3RlZXhwZXJpbWVudGFsLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw1Zjc5NzNmYjYzMDAyNDAwNzE5NDNiNzIiLCJhdWQiOlsiaHR0cHM6Ly90aGVjaGFsYWthcy5jb20iLCJodHRwczovL3JhbmRvbXF1b3RlZXhwZXJpbWVudGFsLnVzLmF1dGgwLmNvbS91c2VyaW5mbyJdLCJpYXQiOjE2Mzg2ODM2NzMsImV4cCI6MTYzODc3MDA3MywiYXpwIjoiYVo3b3piQVYySGk3V1drR3NOd1ZSWm9ZYjgyeGdORjYiLCJzY29wZSI6Im9wZW5pZCBwcm9maWxlIGVtYWlsIHJlYWQ6cHJvZmlsZWRldGFpbHMgcmVhZDpzZWVhbGxxdW90ZXMgcmVhZDpzaXRlc3RhdHMifQ.q1lT60tUaWY6sIx8S-TMR_qhiuKQay4H-pXZMcCZuNflvF-WZiu2WJOJlchdEwX_1QOAIsAQlEAUsPJpd1Bt6un4-hgKgukguH1q9S55yfB_6r1nc_PKLvqRDgIlL2ZhzD69jQ1wqTKg8U5jXULzqjwXarRWjfYT-WOnCO8j9B13VsyniLt40aTDRBCLT9pfJ08qjipGRcXjxuWAW1_-ZgP69DDw82_FVyFJm_3qDnTGMOxoZ4z3tklMSqJDLGLRD1Fwk3pwyunuk4ISnMh9cBuHJmT88sNIjRyrDZlLz0pg_HDbEYqBe3MSzqoc6-1MhCbU78vUzDEH8ZHwjNjw1Q";
+var testTheTwoEndPoints = new APISinglePoint(token);
+var GetResponse = await testTheTwoEndPoints.DemoSimpleGet();
+var PostResponse = await testTheTwoEndPoints.DemoSimplePost();
+
+#region Some Old Code - Feel Free to Check Or Ignore
+
+////let's test things out
+//IDoGet testGetAdmin = new TestGetAdmin();
+//var tempRequest = new RequestGet();
+//tempRequest.endPoint = "api/Admin/Hi";
+//tempRequest.token = "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Im5VU3l1ZDJBc201NzFtYzVKWmpwYyJ9.eyJpc3MiOiJodHRwczovL3JhbmRvbXF1b3RlZXhwZXJpbWVudGFsLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw1Zjc5NzNmYjYzMDAyNDAwNzE5NDNiNzIiLCJhdWQiOlsiaHR0cHM6Ly90aGVjaGFsYWthcy5jb20iLCJodHRwczovL3JhbmRvbXF1b3RlZXhwZXJpbWVudGFsLnVzLmF1dGgwLmNvbS91c2VyaW5mbyJdLCJpYXQiOjE2Mzg2ODM2NzMsImV4cCI6MTYzODc3MDA3MywiYXpwIjoiYVo3b3piQVYySGk3V1drR3NOd1ZSWm9ZYjgyeGdORjYiLCJzY29wZSI6Im9wZW5pZCBwcm9maWxlIGVtYWlsIHJlYWQ6cHJvZmlsZWRldGFpbHMgcmVhZDpzZWVhbGxxdW90ZXMgcmVhZDpzaXRlc3RhdHMifQ.q1lT60tUaWY6sIx8S-TMR_qhiuKQay4H-pXZMcCZuNflvF-WZiu2WJOJlchdEwX_1QOAIsAQlEAUsPJpd1Bt6un4-hgKgukguH1q9S55yfB_6r1nc_PKLvqRDgIlL2ZhzD69jQ1wqTKg8U5jXULzqjwXarRWjfYT-WOnCO8j9B13VsyniLt40aTDRBCLT9pfJ08qjipGRcXjxuWAW1_-ZgP69DDw82_FVyFJm_3qDnTGMOxoZ4z3tklMSqJDLGLRD1Fwk3pwyunuk4ISnMh9cBuHJmT88sNIjRyrDZlLz0pg_HDbEYqBe3MSzqoc6-1MhCbU78vUzDEH8ZHwjNjw1Q";
+//var response1 = await testGetAdmin.PerformGetAsync(tempRequest);
+
+////lets test the POST
+//IDoPost testAddQuote = new PostNewQuote();
+////get the quote object and make it a json string
+////our post object
+//var tempPostObject = new PostAddNewQuoteBody();
+//var number = 1;
+//tempPostObject.QuoteAuthor = "Nov28thAuthor";
+//tempPostObject.QuoteContent = "Something Something Hello " + number;
+//tempPostObject.OptionalAdditionalNotes = "Additional Notes " + number;
+
+////// Json to post.
+//string jsonToPost = tempPostObject.ToJson();
+
+//var tempRequest2 = new RequestPOST();
+//tempRequest2.endPoint = "api/Moderator/AddNewQuote";
+//tempRequest2.token = "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Im5VU3l1ZDJBc201NzFtYzVKWmpwYyJ9.eyJpc3MiOiJodHRwczovL3JhbmRvbXF1b3RlZXhwZXJpbWVudGFsLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw1Zjc5NzNmYjYzMDAyNDAwNzE5NDNiNzIiLCJhdWQiOlsiaHR0cHM6Ly90aGVjaGFsYWthcy5jb20iLCJodHRwczovL3JhbmRvbXF1b3RlZXhwZXJpbWVudGFsLnVzLmF1dGgwLmNvbS91c2VyaW5mbyJdLCJpYXQiOjE2Mzg2ODM2NzMsImV4cCI6MTYzODc3MDA3MywiYXpwIjoiYVo3b3piQVYySGk3V1drR3NOd1ZSWm9ZYjgyeGdORjYiLCJzY29wZSI6Im9wZW5pZCBwcm9maWxlIGVtYWlsIHJlYWQ6cHJvZmlsZWRldGFpbHMgcmVhZDpzZWVhbGxxdW90ZXMgcmVhZDpzaXRlc3RhdHMifQ.q1lT60tUaWY6sIx8S-TMR_qhiuKQay4H-pXZMcCZuNflvF-WZiu2WJOJlchdEwX_1QOAIsAQlEAUsPJpd1Bt6un4-hgKgukguH1q9S55yfB_6r1nc_PKLvqRDgIlL2ZhzD69jQ1wqTKg8U5jXULzqjwXarRWjfYT-WOnCO8j9B13VsyniLt40aTDRBCLT9pfJ08qjipGRcXjxuWAW1_-ZgP69DDw82_FVyFJm_3qDnTGMOxoZ4z3tklMSqJDLGLRD1Fwk3pwyunuk4ISnMh9cBuHJmT88sNIjRyrDZlLz0pg_HDbEYqBe3MSzqoc6-1MhCbU78vUzDEH8ZHwjNjw1Q";
+//tempRequest2.JSONString = jsonToPost;
+
+//var response2 = await testAddQuote.PerformPostAsync(tempRequest2);
+
+#endregion
+
+Console.ReadLine();
