@@ -15,7 +15,7 @@ namespace RandomStuffGenerator.Request
         {
             ConstantHelper constantHelper = new ConstantHelper();
             baseURI = constantHelper.returnbaseURI();
-            Method = Method.GET;
+            Method = Method.Get;
             DataFormat = DataFormat.Json;
         }
     }

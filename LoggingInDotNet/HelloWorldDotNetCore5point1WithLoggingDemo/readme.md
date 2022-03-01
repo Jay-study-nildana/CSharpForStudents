@@ -2,6 +2,8 @@
 
 Web API Controller project with simple logging in the controllers.
 
+Note : This project uses an InMemory Database. So, you wont find any migrations here. No point in using EF core and related commands or packages.
+
 # Some Notes
 
 1. Look at file - TodoItemsController. It has a ton of comments related to logging.
@@ -14,9 +16,9 @@ Web API Controller project with simple logging in the controllers.
 
 # Hire Me
 
-I work as a full time freelance software developer and coding tutor. Hire me at [UpWork](https://www.upwork.com/fl/vijayasimhabr) or [Fiverr](https://www.fiverr.com/jay_codeguy). 
+I work as a full time freelance software developer and coding tutor. Hire me at [UpWork](https://www.upwork.com/fl/vijayasimhabr) or [Fiverr](https://www.fiverr.com/jay_codeguy).
 
-# important note 
+# important note
 
 This code is provided as is without any warranties. It's primarily meant for my own personal use, and to make it easy for me share code with my students. Feel free to use this code as it pleases you.
 

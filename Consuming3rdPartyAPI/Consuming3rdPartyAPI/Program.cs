@@ -21,7 +21,7 @@ namespace Consuming3rdPartyAPI
             //await CallRandomStuff();
             //await CallRandomStuffWithTypes();
             //await CallRandomStuffWithTypesRestSharpExceptionsIncluded();
-            await CallRandomStuffWithTypesRestSharpExceptionsIncludedPostDemo();
+            //await CallRandomStuffWithTypesRestSharpExceptionsIncludedPostDemo();
         }
 
         //calling contoso.com
@@ -117,7 +117,7 @@ namespace Consuming3rdPartyAPI
             string fullURI = baseURI + endPoint;
 
             var client = new RestClient("https://api.twitter.com/1.1");
-            var request = new RestRequest(fullURI, DataFormat.Json);
+            var request = new RestRequest(fullURI, Method.Get);
             var randomQuote2 = await client.GetAsync<RandomQuote>(request);
             displayHelper.ShowRandomQuote(randomQuote2);
             displayHelper.ShowALine();
@@ -143,7 +143,7 @@ namespace Consuming3rdPartyAPI
 
 
             var client = new RestClient(baseURI);
-            var request = new RestRequest(endPoint, Method.POST);
+            var request = new RestRequest(endPoint, Method.Post);
             var token = "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Im5VU3l1ZDJBc201NzFtYzVKWmpwYyJ9.eyJpc3MiOiJodHRwczovL3JhbmRvbXF1b3RlZXhwZXJpbWVudGFsLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw1Zjc5NzNmYjYzMDAyNDAwNzE5NDNiNzIiLCJhdWQiOlsiaHR0cHM6Ly90aGVjaGFsYWthcy5jb20iLCJodHRwczovL3JhbmRvbXF1b3RlZXhwZXJpbWVudGFsLnVzLmF1dGgwLmNvbS91c2VyaW5mbyJdLCJpYXQiOjE2MzgwODAwOTQsImV4cCI6MTYzODE2NjQ5NCwiYXpwIjoiYVo3b3piQVYySGk3V1drR3NOd1ZSWm9ZYjgyeGdORjYiLCJzY29wZSI6Im9wZW5pZCBwcm9maWxlIGVtYWlsIHJlYWQ6cHJvZmlsZWRldGFpbHMgcmVhZDpzZWVhbGxxdW90ZXMgcmVhZDpzaXRlc3RhdHMifQ.mMLdcWzcETv22ki8_1JyT-0Ak5CY2lR5r_VLKOTMFOhPX_AkNGBpi-MNTEkJOAU3SYZx661agHomNDSDi18rxtqeqhtqLd1v3aHJg7LWRXHLh4vg26I1OBzbux5-0EKOzAviyN_xbxGWEi44vfs9jrIH14LMGL1oMWguaMRvxx1aqIWEzmxu6MlnxjBFaAxLVRJVg3Xxg1Z2KYq3HnlFUz8qM2VOCw7FKOnfFoFfEAQ5alYEhp8FblwMswHTIheccRJFpqwd9nNG63IhGBaNvrp6M81l4zSGzfxXGUQdfnKLdve3okjM-6lmBxatcqKoOhSbcrmWTs01UchULl_SSA";
             request.AddParameter("accept: application/json", ParameterType.HttpHeader);
             request.AddHeader("authorization", "Bearer " + token);

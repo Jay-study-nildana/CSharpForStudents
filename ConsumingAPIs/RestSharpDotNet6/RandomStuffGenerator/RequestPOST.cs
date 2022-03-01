@@ -16,7 +16,7 @@ namespace RandomStuffGenerator
         {
             ConstantHelper constantHelper = new ConstantHelper();
             baseURI = constantHelper.returnbaseURI();
-            Method = Method.POST;
+            Method = Method.Post;
             DataFormat = DataFormat.Json;
         }
     }
