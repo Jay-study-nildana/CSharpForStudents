@@ -1,23 +1,15 @@
 # SOLID Principles
 
-Some example code related to SOLID Principles.
+The original Harry Mt readme is [available here](README-HarryMT.md).
 
-# Projects
+# Console Projets
 
-1. [SOLID-principles-harrymt-original-untouched](SOLID-principles-harrymt-original-untouched) - SOLID code from harry mt.
-1. [SOLID-principles-harrymt-modified](SOLID-principles-harrymt-modified) - SOLID code from harry mt with my own comments and explanations.
+1. [Solid](Solid) - The original harry mt code with some additional comments and such.
+1. [SolidWithSuperHeroes](SolidWithSuperHeroes) - my own version of the SOLID code based on the harry mt code. But, with Super Heroes!
 
-Note 1 : The harrymt files were created in a older version of visual studio I think. So, expect some visual studio install/updates before you can run them.
+# Changes specific to this folder.
 
-# Tested on
-
-1. I ran the code on Visual Studio 2019.
-1. I ran the code on Visual Studio 2022 as well.
-
-# References
-
-1. https://github.com/harrymt/SOLID-principles
-1. https://www.harrymt.com/blog/2018/05/16/SOLID-principles.html
+1. The original code was in .Net Core 2.0. I have upgraded it to .Net 6.0.
 
 # Hire Me
 
