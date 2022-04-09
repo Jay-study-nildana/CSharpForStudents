@@ -5,7 +5,7 @@ The original Harry Mt readme is [available here](README-HarryMT.md).
 # Console Projets
 
 1. [Solid](Solid) - The original harry mt code with some additional comments and such.
-1. [SolidWithSuperHeroes](SolidWithSuperHeroes) - my own version of the SOLID code based on the harry mt code. But, with Super Heroes!
+1. [SolidWithSuperHeroes](SolidWithSuperHeroes) - my own version of the SOLID code based on the harry mt code. But, with Super Heroes, specifically, Batman!
 
 # Changes specific to this folder.
 

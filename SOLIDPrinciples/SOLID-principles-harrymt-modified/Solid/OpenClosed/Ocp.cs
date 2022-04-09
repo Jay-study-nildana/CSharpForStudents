@@ -14,7 +14,7 @@
     // we have to add a `if else` below. So Modifying the existing code
     internal class Customer
     {
-        public int Type;
+        public int Type = 0;
 
         public virtual void Add(Database db)
         {

@@ -1,24 +1,16 @@
-# SOLID Principles
+# SOLID Principles with Batman Example
 
-Some example code related to SOLID Principles.
+I decided to discuss SOLID principles using Batman as an example.
 
-# Projects
+Look at specific files here, for specific examples.
 
-1. [SOLID-principles-harrymt-original-untouched](SOLID-principles-harrymt-original-untouched) - SOLID code from harry mt.
-1. [SOLID-principles-harrymt-modified](SOLID-principles-harrymt-modified) - SOLID code from harry mt with my own comments and explanations.
+1. [The single-responsibility principle](SinSOLID.cs)
+1. [The open–closed principle](OinSOLID.cs)
+1. [The Liskov substitution principle](LinSOLID.cs)
+1. [The interface segregation principle](IinSOLID.cs)
+1. [The dependency inversion principle](DinSOLID.cs)
 
-Note 1 : The harrymt files were created in a older version of visual studio I think. So, expect some visual studio install/updates before you can run them.
-
-# Tested on
-
-1. I ran the code on Visual Studio 2019.
-1. I ran the code on Visual Studio 2022 as well.
-
-# References
-
-1. https://github.com/harrymt/SOLID-principles
-1. https://www.harrymt.com/blog/2018/05/16/SOLID-principles.html
-1. https://en.wikipedia.org/wiki/SOLID
+As usual, each file has plenty of comments for you to learn.
 
 # Hire Me
 
