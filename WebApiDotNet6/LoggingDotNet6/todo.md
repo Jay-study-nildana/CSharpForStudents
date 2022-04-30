@@ -1,16 +1,11 @@
-# Dot Net Core 6 Web Apis
+# more things to work on.
 
-Collection of some basic hello world Web Api projects.
+Some day in the future, perhaps I, or my students will do some of the following.
 
-# Projects
+# Things To Do
 
-1. [DotNet6APIEFCoreSQLite](DotNet6APIEFCoreSQLite) - demo API with EF Core with SQLite database with azure web app deployment instructions.
-1. [LoggingDotNet6](LoggingDotNet6) - demo about logging with NLog.
-1. [TodoApi](TodoApi) - Simple, memory only EF Core Web Api
-1. [TodoApiMinimal](TodoApiMinimal) - Simple, memory only EF Core Web Api using the new minimal API system 
-1. [webapiauth0demo](webapiauth0demo) - web api with Auth0 configured with roles and permissions
-1. [WebApiDockerWSL2Demo](WebApiDockerWSL2Demo) - Docker demo on Windows 10/11, works on Windows Home edition too.
-1. [WebAPIWithDependencyInjection](WebAPIWithDependencyInjection) - demo web api with Auth0 configured with Roles, Permissions and Scopes.
+1. What is the best way to feed and browse through these logs? Like sorting and filtering?
+1. Can I write this to a database, perhaps Azure Files or Azure Insights or at least SQLite or Azure SQLserver. Right now, things are being fed into a simple file.
 
 # Hire Me
 

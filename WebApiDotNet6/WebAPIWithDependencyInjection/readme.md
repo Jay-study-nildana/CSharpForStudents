@@ -1,16 +1,12 @@
-# Dot Net Core 6 Web Apis
+# Dependency Injection in Web API
 
-Collection of some basic hello world Web Api projects.
+Dependency Injection or DI, is one of those things that are essential, but also, mostly confusing. I have put together a simple code demo here.
 
-# Projects
+# References
 
-1. [DotNet6APIEFCoreSQLite](DotNet6APIEFCoreSQLite) - demo API with EF Core with SQLite database with azure web app deployment instructions.
-1. [LoggingDotNet6](LoggingDotNet6) - demo about logging with NLog.
-1. [TodoApi](TodoApi) - Simple, memory only EF Core Web Api
-1. [TodoApiMinimal](TodoApiMinimal) - Simple, memory only EF Core Web Api using the new minimal API system 
-1. [webapiauth0demo](webapiauth0demo) - web api with Auth0 configured with roles and permissions
-1. [WebApiDockerWSL2Demo](WebApiDockerWSL2Demo) - Docker demo on Windows 10/11, works on Windows Home edition too.
-1. [WebAPIWithDependencyInjection](WebAPIWithDependencyInjection) - demo web api with Auth0 configured with Roles, Permissions and Scopes.
+1. https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-6.0
+1. https://github.com/simpleinjector/SimpleInjector - A library that might help. Note : I am not actually using this library here.
+1. https://www.manning.com/books/dependency-injection-principles-practices-patterns - a book that appears to be pretty good. also includes an online free edition.
 
 # Hire Me
 
