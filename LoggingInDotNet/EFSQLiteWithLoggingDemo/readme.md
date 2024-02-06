@@ -4,6 +4,8 @@ A quick and simple EF Core demo with SQLite.
 
 This one focusses on Logging.
 
+Note: Updated to work with .Net 8.0
+
 # Important Note
 
 1. Recent changes on how EF Core works. 
@@ -35,12 +37,8 @@ This one focusses on Logging.
 1. https://stackoverflow.com/questions/58259520/iloggerfactory-does-not-contain-a-definition-for-addconsole
 1. https://stackoverflow.com/questions/67396315/how-or-where-do-i-see-logtrace-messages-in-dot-net-core
 
-# Hire Me
+# hire and get to know me
 
-I work as a full time freelance software developer and coding tutor. Hire me at [UpWork](https://www.upwork.com/fl/vijayasimhabr) or [Fiverr](https://www.fiverr.com/jay_codeguy). 
+find ways to hire me, follow me and stay in touch with me.
 
-# important note 
-
-This code is provided as is without any warranties. It's primarily meant for my own personal use, and to make it easy for me share code with my students. Feel free to use this code as it pleases you.
-
-I can be reached through my website - [Jay's Developer Profile](https://jay-study-nildana.github.io/developerprofile)
+https://jay-study-nildana.github.io/developerprofile/

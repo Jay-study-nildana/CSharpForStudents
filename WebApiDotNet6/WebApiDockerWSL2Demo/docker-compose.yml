@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  webapidockerwsl2demo:
-    image: ${DOCKER_REGISTRY-}webapidockerwsl2demo
-    build:
-      context: .
-      dockerfile: WebApiDockerWSL2Demo/Dockerfile

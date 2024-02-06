@@ -1,20 +1,11 @@
 # Web Socket Demo
 
-A quick and dirty web socket demo that uses the 'websocket-sharp' library.
+this project was from the old .net 4.6 days. so, deleted it. sorry.
 
-# References
+TODO. is there web socket available for dot net 8.0?
 
-1. https://github.com/sta/websocket-sharp
-2. https://github.com/sta/websocket-sharp/issues/438 (for the TLS Error)
-3. https://hoppscotch.io/realtime/ (for online testing)
-4. wss://echo.websocket.org (test server for testing)
+# hire and get to know me
 
-# Hire Me
+find ways to hire me, follow me and stay in touch with me.
 
-I work as a full time freelance software developer and coding tutor. Hire me at [UpWork](https://www.upwork.com/fl/vijayasimhabr) or [Fiverr](https://www.fiverr.com/jay_codeguy). 
-
-# important note 
-
-This code is provided as is without any warranties. It's primarily meant for my own personal use, and to make it easy for me share code with my students. Feel free to use this code as it pleases you.
-
-I can be reached through my website - [Jay's Developer Profile](https://jay-study-nildana.github.io/developerprofile)
+https://jay-study-nildana.github.io/developerprofile/
