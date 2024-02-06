@@ -9,32 +9,14 @@ Some example code related to SOLID Principles.
 
 Note 1 : The harrymt files were created in a older version of visual studio I think. So, expect some visual studio install/updates before you can run them.
 
-# Tested on
-
-1. I ran the code on Visual Studio 2019.
-1. I ran the code on Visual Studio 2022 as well.
-
 # References
 
 1. https://github.com/harrymt/SOLID-principles
 1. https://www.harrymt.com/blog/2018/05/16/SOLID-principles.html
 1. https://en.wikipedia.org/wiki/SOLID
 
-# Hire Me
+# hire and get to know me
 
-I work as a full time freelance software developer and coding tutor. Hire me at [UpWork](https://www.upwork.com/fl/vijayasimhabr) or [Fiverr](https://www.fiverr.com/jay_codeguy).
+find ways to hire me, follow me and stay in touch with me.
 
-# Hobbies
-
-I try to maintain a few hobbies.
-
-1. Podcasting. You can listen to my [podcast here](https://stories.thechalakas.com/listen-to-podcast/).
-1. Photography. You can see my photography on [Unsplash here](https://unsplash.com/@jay_neeruhaaku).
-1. Digital Photorealism 3D Art and Arch Viz. You can see my work on this on [Adobe Behance](https://www.behance.net/vijayasimhabr).
-1. Writing and Blogging. You can read my blogs. I have many medium Publications. [Read them here](https://medium.com/@vijayasimhabr).
-
-# important note
-
-This code is provided as is without any warranties. It's primarily meant for my own personal use, and to make it easy for me share code with my students. Feel free to use this code as it pleases you.
-
-I can be reached through my website - [Jay's Developer Profile](https://jay-study-nildana.github.io/developerprofile)
+https://jay-study-nildana.github.io/developerprofile/

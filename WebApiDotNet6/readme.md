@@ -4,29 +4,11 @@ Collection of some basic hello world Web Api projects.
 
 # Projects
 
-1. [DotNet6APIEFCoreSQLite](DotNet6APIEFCoreSQLite) - demo API with EF Core with SQLite database with azure web app deployment instructions.
-1. [LoggingDotNet6](LoggingDotNet6) - demo about logging with NLog.
-1. [TodoApi](TodoApi) - Simple, memory only EF Core Web Api
-1. [TodoApiMinimal](TodoApiMinimal) - Simple, memory only EF Core Web Api using the new minimal API system 
 1. [webapiauth0demo](webapiauth0demo) - web api with Auth0 configured with roles and permissions
-1. [WebApiDockerWSL2Demo](WebApiDockerWSL2Demo) - Docker demo on Windows 10/11, works on Windows Home edition too.
 1. [WebAPIWithDependencyInjection](WebAPIWithDependencyInjection) - demo web api with Auth0 configured with Roles, Permissions and Scopes.
 
-# Hire Me
+# hire and get to know me
 
-I work as a full time freelance software developer and coding tutor. Hire me at [UpWork](https://www.upwork.com/fl/vijayasimhabr) or [Fiverr](https://www.fiverr.com/jay_codeguy).
+find ways to hire me, follow me and stay in touch with me.
 
-# Hobbies
-
-I try to maintain a few hobbies.
-
-1. Podcasting. You can listen to my [podcast here](https://stories.thechalakas.com/listen-to-podcast/).
-1. Photography. You can see my photography on [Unsplash here](https://unsplash.com/@jay_neeruhaaku).
-1. Digital Photorealism 3D Art and Arch Viz. You can see my work on this on [Adobe Behance](https://www.behance.net/vijayasimhabr).
-1. Writing and Blogging. You can read my blogs. I have many medium Publications. [Read them here](https://medium.com/@vijayasimhabr).
-
-# important note
-
-This code is provided as is without any warranties. It's primarily meant for my own personal use, and to make it easy for me share code with my students. Feel free to use this code as it pleases you.
-
-I can be reached through my website - [Jay's Developer Profile](https://jay-study-nildana.github.io/developerprofile)
+https://jay-study-nildana.github.io/developerprofile/

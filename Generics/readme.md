@@ -8,14 +8,18 @@ Some essential notes about Generics for my students.
 
 # References
 
-Check [References.md](References.md).
+1. https://docs.microsoft.com/en-us/dotnet/standard/generics/
+1. https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/types/generics
+1. https://docs.microsoft.com/en-us/dotnet/standard/generics/collections
+1. https://docs.microsoft.com/en-us/dotnet/standard/generics/delegates-for-manipulating-arrays-and-lists
+1. https://docs.microsoft.com/en-us/dotnet/standard/generics/interfaces
+1. https://docs.microsoft.com/en-us/dotnet/standard/generics/covariance-and-contravariance
+1. https://docs.microsoft.com/en-us/dotnet/standard/collections/commonly-used-collection-types
+1. https://docs.microsoft.com/en-us/dotnet/standard/collections/when-to-use-generic-collections
+1. https://docs.microsoft.com/en-us/dotnet/framework/reflection-and-codedom/how-to-define-a-generic-type-with-reflection-emit
 
-# Hire Me
+# hire and get to know me
 
-I work as a full time freelance software developer and coding tutor. Hire me at [UpWork](https://www.upwork.com/fl/vijayasimhabr) or [Fiverr](https://www.fiverr.com/jay_codeguy). 
+find ways to hire me, follow me and stay in touch with me.
 
-# important note 
-
-This code is provided as is without any warranties. It's primarily meant for my own personal use, and to make it easy for me share code with my students. Feel free to use this code as it pleases you.
-
-I can be reached through my website - [Jay's Developer Profile](https://jay-study-nildana.github.io/developerprofile)
+https://jay-study-nildana.github.io/developerprofile/

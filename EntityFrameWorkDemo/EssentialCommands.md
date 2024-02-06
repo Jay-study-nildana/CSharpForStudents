@@ -38,8 +38,8 @@ Migrations of EF
     dotnet ef migrations add InitialCreate
     dotnet ef database update
 
-# important note 
+# hire and get to know me
 
-This code is provided as is without any warranties. It's primarily meant for my own personal use, and to make it easy for me share code with my students. Feel free to use this code as it pleases you.
+find ways to hire me, follow me and stay in touch with me.
 
-I can be reached through my website - [Jay's Developer Profile](https://jay-study-nildana.github.io/developerprofile)
+https://jay-study-nildana.github.io/developerprofile/

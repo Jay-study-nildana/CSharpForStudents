@@ -7,18 +7,18 @@ During the course of building an API, it is very likely that you will have to co
 
 In such scenarios, you will have use web libraries to consume APIs.
 
+note: the code useful as a reference. The example API used in the code, is no longer real. but you can use your own API endpoint and the code should work.
+
+TODO: Update the code to work with a live API, perhaps the NASA APOD API.
+
 # References
 
 1. https://docs.microsoft.com/en-us/dotnet/api/system.net.http.httpclient?view=net-5.0 - the main http web api calling client.
 1. https://restsharp.dev/getting-started/ - used to call web api. popular library.
 1. https://quicktype.io/ - used for conversion between json and c # POCO classes.
 
-# Hire Me
+# hire and get to know me
 
-I work as a full time freelance software developer and coding tutor. Hire me at [UpWork](https://www.upwork.com/fl/vijayasimhabr) or [Fiverr](https://www.fiverr.com/jay_codeguy). 
+find ways to hire me, follow me and stay in touch with me.
 
-# important note 
-
-This code is provided as is without any warranties. It's primarily meant for my own personal use, and to make it easy for me share code with my students. Feel free to use this code as it pleases you.
-
-I can be reached through my website - [Jay's Developer Profile](https://jay-study-nildana.github.io/developerprofile)
+https://jay-study-nildana.github.io/developerprofile/
