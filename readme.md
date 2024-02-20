@@ -2,6 +2,12 @@
 
 some c sharp related things. 
 
+# revising c sharp 2024
+
+I am trying something new. complete code related to entire c sharp basics. design patterns. many, many projects like API, authentication, micro services and all that. 
+
+[check it out, here](CS2024)
+
 # Projects For You
 
 This list is a jumble on many, and often, unrelated code related to everything .NET.
@@ -23,4 +29,5 @@ This list is a jumble on many, and often, unrelated code related to everything .
 
 find ways to hire me, follow me and stay in touch with me.
 
-https://jay-study-nildana.github.io/developerprofile/
+1. https://jay-study-nildana.github.io/developerprofile/
+1. https://thechalakas.com

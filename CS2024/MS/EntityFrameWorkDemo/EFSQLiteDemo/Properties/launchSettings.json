@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "EFSQLiteDemo": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\vijay\\Videos\\November2023\\CSharpForStudents\\EntityFrameWorkDemo\\EFSQLiteDemo"
+    }
+  }
+}

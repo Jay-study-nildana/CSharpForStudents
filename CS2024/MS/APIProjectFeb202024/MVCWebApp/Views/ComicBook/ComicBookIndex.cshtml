@@ -1,0 +1,61 @@
+﻿@using MVCWebApp.DTOs
+@model IEnumerable<ComicBookDTO>
+
+<div class="card shadow border-0 mt-4">
+	<div class="card-header bg-secondary bg-gradient ml-0 py-3">
+		<div class="row">
+			<div class="col-12 text-center">
+				<h1 class="text-white">ComicBooks List</h1>
+			</div>
+		</div>
+	</div>
+	<div class="card-body p-4">
+		<div class="row pb-3">
+			<div class="col-6">
+			</div>
+			<div class="col-6 text-end">
+				<a asp-action="ComicBookCreate" class="btn btn-outline-primary"><i class="bi bi-plus-square"></i> Create New ComicBook</a>
+
+			</div>
+		</div>
+		<table class="table">
+			<thead>
+				<tr>
+					<th>
+						Title
+					</th>
+					<th>
+						Year Of Release
+					</th>
+					<th>
+						ISBN
+					</th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var item in Model)
+				{
+					<tr>
+						<td>
+							@item.ComicBookTitle
+						</td>
+						<td>
+							@((item.ComicBookYearOfRelease).ToString())
+						</td>
+						<td>
+							@item.ComicBookISBN
+						</td>
+						<td>
+							<a asp-action="ComicBookDelete" asp-route-ComicBookId="@item.ComicBookId" class="btn btn-danger">
+								<i class="bi bi-trash"></i>
+							</a>
+						</td>
+					</tr>
+				}
+			</tbody>
+		</table>
+
+	</div>
+
+</div>
