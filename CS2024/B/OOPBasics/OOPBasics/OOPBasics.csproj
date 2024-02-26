@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BakeryandSweets\BakeryandSweets.csproj" />
+    <ProjectReference Include="..\FamilyStuff\FamilyStuff.csproj" />
+    <ProjectReference Include="..\RecursionExamples\RecursionExamples.csproj" />
+    <ProjectReference Include="..\SuperHeroClassLibrary\SuperHeroClassLibrary.csproj" />
+  </ItemGroup>
+
+</Project>

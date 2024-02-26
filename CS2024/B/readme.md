@@ -2,9 +2,7 @@
 
 So, I decided to update my knowledge for my students in 2024. This is that code.
 
-Programming Basics will come here.
-
-# C Sharp Basics - Part 1
+# C Sharp Basics
 
 1. Creating Hello World Console Application
    1. What is "Hello world"
@@ -103,7 +101,104 @@ Programming Basics will come here.
    1. Nested Loops with For Loop
    1. Goto
    1. [Example Project](Loops)
-1.
+1. Object Oriented Programming
+   1. What is OOP
+   1. Why we use OOP
+   1. What are Objects
+   1. What are Classes
+   1. Relationship between Objects and Classes
+   1. What are Scalable Applications?
+   1. C#, Java, C++, JavaScript, Python and so on use OOP
+   1. dot operator in Classes
+   1. Methods in Class
+   1. Fields in Class
+   1. Creating Classes and Objects
+   1. [Example Project](OOPBasics)
+1. Fields, Properties and Indexers
+   1. What is Field
+   1. Field Syntax
+   1. Access Modifiers in Fields
+      1. Private
+      1. Protected
+      1. Private Protected
+      1. Internal
+      1. Protected Internal
+      1. Public
+   1. Static Fields
+   1. Constant Fields
+   1. Readonly Fields
+   1. Local Constants
+   1. Understanding Properties
+   1. Accessors
+      1. Set
+      1. Get
+   1. Read only
+   1. Write only
+   1. Auto Implemented and Initializer
+   1. Indexers
+   1. [Example Project](OOPBasics)
+1. Methods or Functions
+   1. What are methods?
+   1. Understanding Encapsulation
+   1. Local Variables and Parameters
+   1. this keyword
+   1. Static methods
+   1. Object Reference
+   1. Arguments
+      1. Default
+      1. Named
+   1. Overloading of Methods
+   1. Parameter Modifiers
+      1. Default
+      1. Ref
+      1. Out
+      1. in
+      1. params
+   1. Recursion
+   1. [Example Project](OOPBasics)
+1. Type Conversion
+   1. Converstion of Types
+   1. Casting
+      1. Implicit
+      1. Explicit
+   1. Parse and TryParse
+   1. Conversion Methods
+1. Constructors
+   1. What are Constructors?
+   1. Static Constructors
+   1. Types of Constructors
+      1. Parameter Less
+      1. Parameterized
+      1. Implicit
+      1. Explicit
+   1. Objects and Constructors
+   1. [Example Project](OOPBasics)
+1. Inheritance
+   1. Introduction to Inheritance
+   1. Types
+      1. Single
+      1. Multiple
+      1. Multi Level
+      1. Hierarchical
+      1. Hybrid
+   1. Using 'base' keyword features
+   1. Parent class constructor
+   1. Method Hiding with new
+   1. Method Overriding with virtual and override
+   1. Sealed Classes
+   1. Sealded Methods
+   1. [Example Project](OOPBasics)
+1. Abstraction and Interfaces
+   1. Abstract Classes
+   1. Abstract Methods
+   1. Interfaces
+   1. Polymorphism with Interfaces
+      1. Compile Time
+      1. Run-Time
+   1. Multiple Inheritance
+   1. Implementation
+   1. Explicit Implementation
+   1. [Example Project](OOPBasics)
 
 # hire and get to know me
 
