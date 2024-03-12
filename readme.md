@@ -8,6 +8,12 @@ I am trying something new. complete code related to entire c sharp basics. desig
 
 [check it out, here](CS2024)
 
+# Achilles Heel of Coding Test Failures 
+
+I have decided to fix my inability to pass coding tests. 
+
+[check it out, here][LC2024]
+
 # Projects For You
 
 This list is a jumble on many, and often, unrelated code related to everything .NET.
