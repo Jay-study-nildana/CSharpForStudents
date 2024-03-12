@@ -12,7 +12,7 @@ I am trying something new. complete code related to entire c sharp basics. desig
 
 I have decided to fix my inability to pass coding tests. 
 
-[check it out, here][LC2024]
+[check it out, here](LC2024)
 
 # Projects For You
 
