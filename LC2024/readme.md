@@ -5,10 +5,11 @@ Some students are asking me, "Jay sir, what is your leet code rank or score? How
 1. Here are my solutions. I have added detailed comments, neccessary links as usual.
 1. see my [leetcode profile](https://leetcode.com/vijayasimhabr/)
 1. As usual, I have blogged about. [Read my 'coding test' journey, here](https://vijayasimhabr.medium.com/list/coding-tests-and-such-7a6efbf0ebc0).
+1. I am tracking my LeetCode rank as it (hopefull) improves over time. [see the rank with dates, here]()
 
-# Visual Studio Solutions - First Run
+# Visual Studio Solutions - First Run - March 14th Onwards
 
-These are solutions from my beginner days of LeetCode. Hopefully, once I finish all the solutions, I will do them again, and hope to write more improved code.
+These are solutions from my beginner days of LeetCode. After a few months, hopefully my coding skills have improved, and I will do them again, which will become my second run (scroll down to the next section).
 
 1. [LCMar92024](LCMar92024)
    1. https://leetcode.com/problems/minimum-common-value/description/
@@ -40,10 +41,19 @@ These are solutions from my beginner days of LeetCode. Hopefully, once I finish 
 1. [LCMar122024](LCMar122024)
    1. https://leetcode.com/problems/median-of-two-sorted-arrays/description/
    1. https://leetcode.com/problems/height-checker/
+1. [LCMar132024Onwards](LCMar132024Onwards)
+   1. https://leetcode.com/problems/max-consecutive-ones-ii/description/
+   1. https://leetcode.com/problems/third-maximum-number/description/
+   1. https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/
+   1. https://leetcode.com/problems/squares-of-a-sorted-array/description/ (already solved above)
 
-# Visual Studio Solutions - Second Run
+# Visual Studio Solutions - Second Run - insert date when you begin
 
 TODO. Do all the solutions again, but, make them faster and less memory consuming.
+
+This is where I plan to do all the puzzles again, perhaps after I have gained some more coding skills.
+
+1. as of now nothing.
 
 # hire and get to know me
 
