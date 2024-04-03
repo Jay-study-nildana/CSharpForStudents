@@ -31,6 +31,10 @@ This list is a jumble on many, and often, unrelated code related to everything .
 - [WebApiDotNetCore](WebApiDotNetCore) - .NET Core Hello World Web API Projects
 - [WebSocketDemo](WebSocketDemo) - A quick and dirty web socket demo that uses the 'websocket-sharp' library.
 
+# cool repos
+
+see here for some [cool repos I like](coolrepo.md).
+
 # hire and get to know me
 
 find ways to hire me, follow me and stay in touch with me.
