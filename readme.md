@@ -33,7 +33,7 @@ This list is a jumble on many, and often, unrelated code related to everything .
 
 # cool repos
 
-see here for some [cool repos I like](coolrepo.md).
+see here for some [cool repos I like](https://github.com/Jay-study-nildana/somecoolrepos).
 
 # hire and get to know me
 
