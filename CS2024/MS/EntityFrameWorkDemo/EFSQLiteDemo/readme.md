@@ -1,34 +1,29 @@
 # EFSQLiteDemo - Console App with EF Core using SQLite
 
-A quick and simple EF Core demo with SQLite.
+A quick and simple EF Core demo with SQLite. Remember to use 'SQLITE DB Browser' to explore the database. 
 
-Note : check the notes below if you keep getting 'table not found' exceptions. This happens because, the project cannot locate the database.
+1. Note - check the notes below if you keep getting 'table not found' exceptions. This happens because, the project cannot locate the database.
+1. Tested on Visual Studio on Windows
+1. Tested on Visual Studio Code on Windows
+1. NOT currently working on Mac. I keep getting 'working directory' errors. TODO.
 
-# Important Note about SQLite Path Issues - Part One
+# Table 'Kites' not found error
 
-1. Recent changes on how EF Core works.
-1. You need to install 'Install-Package Microsoft.EntityFrameworkCore.Tools'. Previously, this was not there or was not required.
-1. Set Working Directory manually. Look here for more details - https://entityframeworkcore.com/knowledge-base/33455041/asp-net-5--ef-7-and-sqlite---sqlite-error-1---no-such-table--blog-
+This is explained in detail below. In short, Try the following (Visual Studio and Windows only)
 
-   ```
-
-   In Solution Explorer, right click the project and then select Properties.
-   Select the Debug tab in the left pane.
-   Set Working directory to the project directory.
-   Save the changes.
-
-   ```
-
+1. Delete Migrations folder
+1. Delete the SQLite file (.db)
+1. Set the working directory manually to the current working folder. more details - https://entityframeworkcore.com/knowledge-base/33455041/asp-net-5--ef-7-and-sqlite---sqlite-error-1---no-such-table--blog-
+    1. In Solution Explorer, right click the project and then select Properties.
+    1. Select the Debug tab in the left pane.
+    1. Set Working directory to the project directory.
+    1. Save the changes.
 1. If you still get error, try
+    1. Add-Migration InitialCreate
+    1. Update-Database
+1. TODO. Add a try catch for db operations
 
-   ```
-
-   Add-Migration InitialCreate
-   Update-Database
-
-   ```
-
-# Important Note about SQLite Path Issues - Part Two
+# Additional Note
 
 You could also do something like this.
 
@@ -54,10 +49,6 @@ You could also do something like this.
     }
 
 ```
-
-# Important Note about SQLite Path Issues - Part Three
-
-Or, you could manually provide a path to any location on your computer. Dont let the computer create the path for yourself and make the sqlite db file go where you want it to go.
 
 # hire and get to know me
 

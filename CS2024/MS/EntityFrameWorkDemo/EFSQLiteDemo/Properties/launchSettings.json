@@ -2,7 +2,7 @@
   "profiles": {
     "EFSQLiteDemo": {
       "commandName": "Project",
-      "workingDirectory": "C:\\Users\\vijay\\Videos\\November2023\\CSharpForStudents\\EntityFrameWorkDemo\\EFSQLiteDemo"
+      "workingDirectory": "C:\\Users\\vijay\\Videos\\CSharpForStudents\\CS2024\\MS\\EntityFrameWorkDemo\\EFSQLiteDemo"
     }
   }
 }

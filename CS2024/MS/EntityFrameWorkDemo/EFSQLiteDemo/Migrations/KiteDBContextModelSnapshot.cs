@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
+#nullable disable
+
 namespace EFSQLiteDemo.Migrations
 {
     [DbContext(typeof(KiteDBContext))]
@@ -11,8 +13,7 @@ namespace EFSQLiteDemo.Migrations
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
-            modelBuilder
-                .HasAnnotation("ProductVersion", "5.0.10");
+            modelBuilder.HasAnnotation("ProductVersion", "8.0.1");
 
             modelBuilder.Entity("Kite", b =>
                 {
@@ -22,6 +23,7 @@ namespace EFSQLiteDemo.Migrations
 
                     b.Property<string>("Discriminator")
                         .IsRequired()
+                        .HasMaxLength(21)
                         .HasColumnType("TEXT");
 
                     b.Property<int>("KiteColor")
@@ -35,6 +37,8 @@ namespace EFSQLiteDemo.Migrations
                     b.ToTable("Kites");
 
                     b.HasDiscriminator<string>("Discriminator").HasValue("Kite");
+
+                    b.UseTphMappingStrategy();
                 });
 
             modelBuilder.Entity("EFSQLiteDemo.Model.KiteUpdateOctober4th", b =>
