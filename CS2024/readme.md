@@ -12,9 +12,7 @@ Doubts/Questions? Raise a issue. [here is an example on how to ask coding doubts
 1. [DesignPatterns](DP)
 1. [Micro Services and Projects](MS)
 
-# blogs, and other content
-
-1. https://vijayasimhabr.medium.com/list/revisting-c-sharp-2024-34c6ccf9cd75 : a list of articles I wrote about this 'revisiting c sharp 2024' thing.
+also read, [somenotes.md](somenotes.md) which has links and useful stuff. 
 
 # hire and get to know me
 

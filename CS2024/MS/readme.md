@@ -6,6 +6,8 @@ So, I decided to update my knowledge for my students in 2024. This is that code.
 
 Plenty of large projects and micro services, ideal for applying all the learnt programming concepts, will come here. In all solutions (and projects in them), I have followed 'Micro Services' architecture.
 
+note: remember to run/study the project, [EntityFrameWorkDemo](EntityFrameWorkDemo), before progressing to the below projects
+
 1. [APIProjectFeb202024](APIProjectFeb202024) - A simple API Project with a web app consuming consuming this API. Using the Micro Service Architecture as promised.
 1. [Mango-TillSection5](Mango-TillSection5) - Microsoft Services Project with a back end API, Authentication API server with Roles and a simple .NET Razor Pages MVC app that consumes both the backend API and the Authentication API Server. 
 
