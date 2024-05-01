@@ -27,7 +27,8 @@ The following topics are covered in this example project.
 
 1. Open each project folder, one by one, and run them separately. 
     1. https://medium.com/projectwt/running-visual-studio-windows-projects-on-vs-code-windows-mac-9a7068defed0
-1. Yet to test it on Mac. TODO.
+1. Tested on Windows with VS Code. Running.
+1. Tested on Mac with VS Code. Running.
 
 # hire and get to know me
 

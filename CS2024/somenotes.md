@@ -8,6 +8,9 @@ just some notes with links and other things.
 1. https://medium.com/projectwt/running-visual-studio-windows-projects-on-vs-code-windows-mac-9a7068defed0
 1. https://stackoverflow.com/questions/70332897/how-to-change-default-port-no-of-my-net-core-6-api
 1. https://stackoverflow.com/questions/59024379/launch-specific-url-in-an-asp-net-core-app-in-vscode-when-running-the-app
+1. https://stackoverflow.com/questions/40675162/install-a-nuget-package-in-visual-studio-code 
+1. https://code.visualstudio.com/docs/csharp/package-management
+1. https://learn.microsoft.com/en-us/nuget/consume-packages/install-use-packages-dotnet-cli
 
 # hire and get to know me
 

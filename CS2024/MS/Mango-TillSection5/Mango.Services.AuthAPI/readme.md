@@ -2,6 +2,8 @@
 
 some notes about this project. 
 
+Swagger is available at: https://localhost:7002/swagger/index.html
+
 # EF Core 
 
 make sure your database is updated. 
