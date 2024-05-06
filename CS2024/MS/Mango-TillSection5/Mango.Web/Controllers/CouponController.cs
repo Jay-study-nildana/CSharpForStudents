@@ -31,10 +31,10 @@ namespace Mango.Web.Controllers
             return View(list);
         }
 
-		public async Task<IActionResult> CouponCreate()
-		{
-			return View();
-		}
+	public async Task<IActionResult> CouponCreate()
+	{
+		return View();
+	}
 
         [HttpPost]
         public async Task<IActionResult> CouponCreate(CouponDTO model)
