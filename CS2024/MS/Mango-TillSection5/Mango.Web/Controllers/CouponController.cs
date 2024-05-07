@@ -90,5 +90,46 @@ namespace Mango.Web.Controllers
         }
 
         //TODO I just noticed there is no update option. but there is an update API endpoint, right? 
+
+        //show the specific coupon that will become visible on the form for the user to update
+        public async Task<IActionResult> CouponUpdate(int couponid)
+        {
+            ResponseDTO? response = await _couponService.GetCouponByIdAsync(couponid);
+
+            if (response != null && response.IsSuccess)
+            {
+                CouponDTO? model = JsonConvert.DeserializeObject<CouponDTO>(Convert.ToString(response.Result));
+                return View(model);
+            }
+            else
+            {
+                TempData["error"] = response?.Message;
+            }
+            return NotFound(); ;
+
+        }
+
+        //now the object has been updated and sent back to controller by the user. let's update it
+        [HttpPost]
+
+        public async Task<IActionResult> CouponUpdate(CouponDTO couponDTO)
+        {
+            if (ModelState.IsValid)
+            {
+                ResponseDTO? response = await _couponService.UpdateCouponsAsync(couponDTO);
+
+                if (response != null && response.IsSuccess)
+                {
+                    TempData["success"] = "Coupon created successfully";
+                    return RedirectToAction(nameof(CouponIndex));
+                }
+                else
+                {
+                    TempData["error"] = response?.Message;
+                }
+            }
+
+            return View(couponDTO);
+        }
     }
 }

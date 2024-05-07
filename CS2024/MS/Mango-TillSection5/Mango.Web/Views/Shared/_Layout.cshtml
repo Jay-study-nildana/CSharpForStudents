@@ -14,7 +14,7 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Mango.Web</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Coupon Project</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -25,20 +25,20 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">About This Project</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="TestSimpleAuthorize">Test Simple Authorize</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Content Management
+                                Click Here for the Coupons
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" asp-controller="Coupon" asp-action="CouponIndex">Coupon</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                @* <li><a class="dropdown-item" href="#">Another action</a></li> *@
+@*                                 <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li> *@
                             </ul>
                         </li>
                     </ul>
@@ -75,7 +75,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2024 - Mango.Web - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a> <i class="bi bi-person-walking"></i> <i class="bi bi-arrow-bar-right"></i> <i class="bi bi-person-standing-dress"></i>
+            Coupon Project <a asp-area="" asp-controller="Home" asp-action="Privacy">About Project</a> <i class="bi bi-person-walking"></i> <i class="bi bi-arrow-bar-right"></i> <i class="bi bi-person-standing-dress"></i>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
