@@ -2,6 +2,14 @@
 
 just some notes with links and other things.
 
+# missing .sln files.
+
+In some project folders, .sln might be missing. So, you cannot just double click and open things in visual studio on windows. In such scenarios
+
+1. Open a 'blank solution' in visual studio
+1. Then, 'add project' to your blank solution.
+1. Also, sometimes, you may have to use 'solution properties' and select 'multiple startup projects'.
+
 # links
 
 1. https://medium.com/projectwt/revisiting-c-net-8-0-and-micro-services-update-5-e10652add731
