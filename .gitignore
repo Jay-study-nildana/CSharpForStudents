@@ -418,7 +418,6 @@ FodyWeavers.xsd
 # === Rules for MSVS artifacts ===
 Debug/
 Release/
-*.sln
 *.suo
 *.vcxproj*
 UpgradeLog*.XML
