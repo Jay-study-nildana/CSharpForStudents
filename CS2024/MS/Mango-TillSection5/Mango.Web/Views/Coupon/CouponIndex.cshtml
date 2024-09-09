@@ -5,6 +5,8 @@
 		<div class="row">
 			<div class="col-12 text-center">
 				<h1 class="text-white">Coupons List</h1>
+				<h2>@TempData["error"]</h2>
+				<h2>@TempData["success"]</h2>
 			</div>
 		</div>
 	</div>
@@ -48,16 +50,6 @@
 						<td>
 							<a asp-action="CouponDelete" asp-route-couponId="@item.CouponId" class="btn btn-danger">
 								<i class="bi bi-trash"></i>
-							</a>
-						</td>
-						<td>
-							<a asp-action="CouponShow" asp-route-couponId="@item.CouponId" class="btn btn-danger">
-								<i class="bi bi-eye"></i>
-							</a>
-						</td>
-						<td>
-							<a asp-action="CouponUpdate" asp-route-couponId="@item.CouponId" class="btn btn-danger">
-								<i class="bi bi-pencil-fill"></i>
 							</a>
 						</td>
 					</tr>
