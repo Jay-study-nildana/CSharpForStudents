@@ -1,26 +1,27 @@
-# Revisiting C Sharp 2024 Edition - Projects and Micro Services
+# Projects and Micro Services
 
 So, I decided to update my knowledge for my students in 2024. This is that code.
 
-# 2024 Onwards
+# Projects
 
-Plenty of large projects and micro services, ideal for applying all the learnt programming concepts, will come here. In all solutions (and projects in them), I have followed 'Micro Services' architecture.
+1. [APIProjectFeb202024](APIProjectFeb202024) - A simple API Project
+1. [Mango-TillSection5](Mango-TillSection5) - Back end API, Authentication API and .NET Razor Pages MVC
+1. [Consuming3rdPartyAPI](Consuming3rdPartyAPI) - QuickType and RestSharp
+1. [EntityFrameWorkDemo](EntityFrameWorkDemo) - Entity Framework with SQLite
+1. [WebAPIProjectInMemory](WebAPIProjectInMemory) - A simple API Project, In Memory
+1. [RazorPagesHelloWorld](RazorPagesHelloWorld) - Razor Pages Hello World
 
-note: remember to run/study the project, [EntityFrameWorkDemo](EntityFrameWorkDemo), before progressing to the below projects
+# book a session with me
 
-1. [APIProjectFeb202024](APIProjectFeb202024) - A simple API Project with a web app consuming consuming this API. Using the Micro Service Architecture as promised.
-1. [Mango-TillSection5](Mango-TillSection5) - Micro Services Project with a back end API, Authentication API server with Roles and a simple .NET Razor Pages MVC app that consumes both the backend API and the Authentication API Server. 
-
-# Pre 2024
-
-These are some projects that I had built prior to the big 2024 revamp.
-
-1. [Consuming3rdPartyAPI](Consuming3rdPartyAPI) - make simple GET requests, use QuickType and use RestSharp
-1. [EntityFrameWorkDemo](EntityFrameWorkDemo) - using Entity Framework with SQLite, MS Sql Server and so on.
+1. https://calendly.com/jaycodingtutor/30min
 
 # hire and get to know me
 
 find ways to hire me, follow me and stay in touch with me.
 
-1. https://jay-study-nildana.github.io/developerprofile/
+1. https://github.com/Jay-study-nildana
 1. https://thechalakas.com
+1. https://www.upwork.com/fl/vijayasimhabr
+1. https://www.fiverr.com/jay_codeguy
+1. https://www.codementor.io/@vijayasimhabr
+1. https://stackoverflow.com/users/5338888/jay
