@@ -1,12 +1,10 @@
-# Revisiting C Sharp (2024 Edition)
+# Debugging Hello World
 
-some c sharp stuff.
+debugging with fibonacci as an example.
 
-# Categories
+# References
 
-1. [C# Programming Basics](B)
-1. [Micro Services and Projects](MS)
-1. [Testing and Debugging](TD)
+1. https://learn.microsoft.com/en-us/training/modules/dotnet-debug-visual-studio/
 
 # book a session with me
 

@@ -1,12 +1,11 @@
-# Revisiting C Sharp (2024 Edition)
+# Testing and Debugging
 
-some c sharp stuff.
+some testing and debugging related stuff
 
-# Categories
+# projects
 
-1. [C# Programming Basics](B)
-1. [Micro Services and Projects](MS)
-1. [Testing and Debugging](TD)
+1. [TestingHelloWorld](TestingHelloWorld)
+1. [DebuggingHelloWorld](DebuggingHelloWorld)
 
 # book a session with me
 

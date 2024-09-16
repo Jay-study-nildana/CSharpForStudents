@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "EFSQLiteDemo": {
-      "commandName": "Project",
-      "workingDirectory": "C:\\Users\\vijay\\Videos\\November2023\\CSharpForStudents\\LoggingInDotNet\\EFSQLiteWithLoggingDemo"
-    }
-  }
-}

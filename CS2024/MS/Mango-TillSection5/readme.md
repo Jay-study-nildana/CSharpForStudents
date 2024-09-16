@@ -11,6 +11,8 @@ The following topics are covered in this example project.
 1. .Net API with Swagger UI with Auth Token
 1. .Net API that connects with 3rd Party API
 
+note: a improved version is available here, [Comic Book Shop](https://github.com/Jay-study-nildana/comicbookshop)
+
 # Projects
 
 1. [Mango](Mango) - An empty project, just for the sake of running and making sure your computer works fine. 

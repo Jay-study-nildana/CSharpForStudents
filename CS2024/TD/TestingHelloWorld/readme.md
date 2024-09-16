@@ -1,12 +1,12 @@
-# Revisiting C Sharp (2024 Edition)
+# Testing Hello World
 
-some c sharp stuff.
+unit testing project. 
 
-# Categories
+# References
 
-1. [C# Programming Basics](B)
-1. [Micro Services and Projects](MS)
-1. [Testing and Debugging](TD)
+1. https://learn.microsoft.com/en-us/training/modules/visual-studio-test-concepts/
+1. https://learn.microsoft.com/en-us/training/modules/visual-studio-test-tools/
+1. https://fluentassertions.com/
 
 # book a session with me
 
