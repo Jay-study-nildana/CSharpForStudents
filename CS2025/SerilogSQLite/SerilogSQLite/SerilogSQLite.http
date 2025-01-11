@@ -1,0 +1,6 @@
+@SerilogSQLite_HostAddress = http://localhost:5227
+
+GET {{SerilogSQLite_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

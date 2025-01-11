@@ -1,11 +1,6 @@
-# C Sharp (2025 Edition)
+# Serilog with SQLite and ILogger.
 
-some c sharp stuff.
-
-# Projects
-
-1. [LoggingWithEFCoreSQLite](LoggingWithEFCoreSQLite)
-1. [SerilogSQLite](SerilogSQLite)
+Quick and simple demo of logging with Serilog and SQLite and ILogger.
 
 # book a session with me
 
