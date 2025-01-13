@@ -1,13 +1,6 @@
-# C Sharp For Students
+# C Sharp For Students - Version 1.0.1
 
-some c sharp related things for my students
-
-1. [c sharp 2024](CS2024) - learning code for students
-1. [c sharp 2025](CS2025) - learning code for students
-1. [leetcode solutions](LC2024) - leetcode solutions
-1. [SOLID Principles](SOLIDPrinciples) - SOLID principles in C Sharp
-1. [FreeCode Camp C Sharp Cert Code](FreeCodeCampCSharp) - practice code from the freecode camp c# essentials certification
-2. [Comic Book Shop](https://github.com/Jay-study-nildana/comicbookshop) - full stack .net ecommerce project
+Find example code for learning c sharp. 
 
 # book a session with me
 
