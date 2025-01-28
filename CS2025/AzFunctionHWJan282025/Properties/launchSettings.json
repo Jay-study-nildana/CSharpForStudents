@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "AzFunctionHWJan282025": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7034",
+      "launchBrowser": false
+    }
+  }
+}
