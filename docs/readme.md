@@ -1,4 +1,4 @@
-# C Sharp for Students
+# C Sharp for Students - Version 1.0.3
 
 Welcome to my repository that contains example code from many years of coding and teaching.
 
@@ -20,6 +20,7 @@ Welcome to my repository that contains example code from many years of coding an
     1. [Home](https://github.com/Jay-study-nildana/CSharpForStudents/tree/main/CS2025)
     1. [LoggingWithEFCoreSQLite](https://github.com/Jay-study-nildana/CSharpForStudents/tree/main/CS2025/LoggingWithEFCoreSQLite)
     1. [SerilogSQLite](https://github.com/Jay-study-nildana/CSharpForStudents/tree/main/CS2025/SerilogSQLite)
+    2. [AzFunctionHWJan282025](https://github.com/Jay-study-nildana/CSharpForStudents/tree/main/CS2025/AzFunctionHWJan282025)
 
 # book a session with me
 
