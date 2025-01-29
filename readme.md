@@ -1,4 +1,4 @@
-# C Sharp For Students - Version 1.0.2
+# C Sharp For Students - Version 1.0.3
 
 Find example code for learning c sharp. check out the [docs](https://jay-study-nildana.github.io/CSharpForStudents/).
 
