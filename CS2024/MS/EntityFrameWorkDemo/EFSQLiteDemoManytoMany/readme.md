@@ -1,6 +1,12 @@
-# EFSQLiteDemo - Console App with EF Core using SQLite
+# EFSQLite Demo ManytoMany - Console App with EF Core using SQLite
 
 A quick and simple EF Core demo with SQLite. Remember to use 'SQLITE DB Browser' to explore the database. 
+
+Demos many to many.
+
+# References
+
+1. https://learn.microsoft.com/en-us/ef/core/modeling/relationships/many-to-many
 
 # book a session with me
 
