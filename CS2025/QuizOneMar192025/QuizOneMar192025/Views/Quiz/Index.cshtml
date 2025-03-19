@@ -1,0 +1,18 @@
+﻿@model QuizOneMar192025.ViewModels.QuizViewModel
+
+<form asp-action="SubmitQuiz" method="post">
+    @for (int i = 0; i < Model.Questions.Count; i++)
+    {
+        <div>
+            <h3>@Model.Questions[i].Text</h3>
+            @foreach (var answer in Model.Questions[i].Answers)
+            {
+                <div>
+                    <input type="radio" name="SelectedAnswers[@Model.Questions[i].Id]" value="@answer.Id" />
+                    <label>@answer.Text</label>
+                </div>
+            }
+        </div>
+    }
+    <button type="submit">Submit Quiz</button>
+</form>

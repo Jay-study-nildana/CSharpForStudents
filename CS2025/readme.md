@@ -2,16 +2,12 @@
 
 Some C# projects and resources.
 
-## Table of Contents
-1. [Projects](#projects)
-2. [Book a Session](#book-a-session-with-me)
-3. [Hire and Get to Know Me](#hire-and-get-to-know-me)
-
 ## Projects
 
 1. [LoggingWithEFCoreSQLite](LoggingWithEFCoreSQLite) - Simple logging using a combination of EF Core with SQLite.
 2. [SerilogSQLite](SerilogSQLite) - Quick and simple demo of logging with Serilog and SQLite and ILogger.
 3. [AzFunctionHWJan282025](AzFunctionHWJan282025) - Azure Function project for handling webhooks.
+1. [QuizOneMar192025](QuizOneMar192025) - Quiz Form Demo.
 
 ## Book a Session with Me
 
