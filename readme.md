@@ -2,6 +2,22 @@
 
 Find example code for learning c sharp. check out the [docs](https://jay-study-nildana.github.io/CSharpForStudents/).
 
+# List of Topics
+
+1. [AgileMethodology](AgileMethodology)
+1. [CS2024](CS2024)
+    1. C# Programming Basics
+    1. Micro Services and Projects
+    1. Testing and Debugging
+1. [CS2025](CS2025)
+    1. Logging With EF Core SQLite
+    1. Serilog With SQLite
+    1. Azure Function Hello World
+    1. Simple Quiz Demo Project
+1. [Free Code Camp CSharp](FreeCodeCampCSharp)
+1. [Leet Code Solved from 2024](LC2024)
+1. [SOLIDPrinciples](SOLIDPrinciples)
+
 # book a session with me
 
 1. [calendly](https://calendly.com/jaycodingtutor/30min)
