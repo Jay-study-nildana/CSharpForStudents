@@ -17,6 +17,7 @@ Find example code for learning c sharp. check out the [docs](https://jay-study-n
 1. [Free Code Camp CSharp](FreeCodeCampCSharp)
 1. [Leet Code Solved from 2024](LC2024)
 1. [SOLIDPrinciples](SOLIDPrinciples)
+1. [DesignPatterns](DesignPatterns)
 
 # book a session with me
 
