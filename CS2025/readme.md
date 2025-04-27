@@ -4,10 +4,10 @@ Some C# projects and resources.
 
 ## Projects
 
-1. [LoggingWithEFCoreSQLite](LoggingWithEFCoreSQLite) - Simple logging using a combination of EF Core with SQLite.
-2. [SerilogSQLite](SerilogSQLite) - Quick and simple demo of logging with Serilog and SQLite and ILogger.
-3. [AzFunctionHWJan282025](AzFunctionHWJan282025) - Azure Function project for handling webhooks.
-1. [QuizOneMar192025](QuizOneMar192025) - Quiz Form Demo.
+1. [Logging With EF Core SQLite](LoggingWithEFCoreSQLite) - Simple logging using a combination of EF Core with SQLite.
+2. [Serilog With SQLite](SerilogSQLite) - Quick and simple demo of logging with Serilog and SQLite and ILogger.
+3. [Azure Function Hello World](AzFunctionHWJan282025) - Azure Function project for handling webhooks.
+1. [Simple Quiz Demo Project](QuizOneMar192025) - Quiz Form Demo.
 
 ## Book a Session with Me
 
