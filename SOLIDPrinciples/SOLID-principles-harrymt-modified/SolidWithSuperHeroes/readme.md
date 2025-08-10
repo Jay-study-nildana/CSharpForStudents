@@ -12,21 +12,46 @@ Look at specific files here, for specific examples.
 
 As usual, each file has plenty of comments for you to learn.
 
-# Hire Me
+## Additional Notes
 
-I work as a full time freelance software developer and coding tutor. Hire me at [UpWork](https://www.upwork.com/fl/vijayasimhabr) or [Fiverr](https://www.fiverr.com/jay_codeguy).
+### SinSOLID.cs
+**Principle:** Single Responsibility Principle (SRP)  
+**Summary:**  
+Demonstrates how a class should have only one reason to change, focusing on a single responsibility or functionality.
 
-# Hobbies
+### OinSOLID.cs
+**Principle:** Open/Closed Principle (OCP)  
+**Summary:**  
+Shows how classes should be open for extension but closed for modification, typically using inheritance or interfaces to add new behavior without altering existing code.
 
-I try to maintain a few hobbies.
+### LinSOLID.cs
+**Principle:** Liskov Substitution Principle (LSP)  
+**Summary:**  
+Illustrates that derived classes should be substitutable for their base classes without affecting the correctness of the program, often using polymorphism.
 
-1. Podcasting. You can listen to my [podcast here](https://stories.thechalakas.com/listen-to-podcast/).
-1. Photography. You can see my photography on [Unsplash here](https://unsplash.com/@jay_neeruhaaku).
-1. Digital Photorealism 3D Art and Arch Viz. You can see my work on this on [Adobe Behance](https://www.behance.net/vijayasimhabr).
-1. Writing and Blogging. You can read my blogs. I have many medium Publications. [Read them here](https://medium.com/@vijayasimhabr).
+### IinSOLID.cs
+**Principle:** Interface Segregation Principle (ISP)  
+**Summary:**  
+Highlights the importance of splitting large interfaces into smaller, more specific ones so that clients only need to implement methods they actually use.
 
-# important note
+### DinSOLID.cs
+**Principle:** Dependency Inversion Principle (DIP)  
+**Summary:**  
+Shows how high-level modules should not depend on low-level modules, but both should depend on abstractions (interfaces). Uses a Batman example to illustrate dependency injection and flexible design.
 
-This code is provided as is without any warranties. It's primarily meant for my own personal use, and to make it easy for me share code with my students. Feel free to use this code as it pleases you.
+# book a session with me
 
-I can be reached through my website - [Jay's Developer Profile](https://jay-study-nildana.github.io/developerprofile)
+1. [calendly](https://calendly.com/jaycodingtutor/30min)
+
+# hire and get to know me
+
+find ways to hire me, follow me and stay in touch with me.
+
+1. [github](https://github.com/Jay-study-nildana)
+1. [personal site](https://thechalakas.com)
+1. [upwork](https://www.upwork.com/fl/vijayasimhabr)
+1. [fiverr](https://www.fiverr.com/jay_codeguy)
+1. [codementor](https://www.codementor.io/@vijayasimhabr)
+1. [stackoverflow](https://stackoverflow.com/users/5338888/jay)
+1. [Jay's Coding Channel on YouTube](https://www.youtube.com/channel/UCJJVulg4J7POMdX0veuacXw/)
+1. [medium blog](https://medium.com/@vijayasimhabr)
