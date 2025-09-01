@@ -7,12 +7,12 @@ General Topics that come up in a standard .NET developer evaluation.
 - [Angular.md](Angular.md)
 - [Blazor.md](Blazor.md)
 - [CSharpDotNetGeneral.md](CSharpDotNetGeneral.md)
+- [Dapper.md](Dapper.md)
 - [DesignPatterns.md](DesignPatterns.md)
 - [EntityFramework.md](EntityFramework.md)
 - [MSSQL.md](MSSQL.md)
 - [Razor.md](Razor.md)
 - [React.md](React.md)
-- [readme.md](readme.md)
 - [SOLID.md](SOLID.md)
 
 # book a session with me
