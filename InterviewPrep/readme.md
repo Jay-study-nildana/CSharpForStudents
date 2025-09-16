@@ -14,6 +14,8 @@ General Topics that come up in a standard .NET developer evaluation.
 - [Razor.md](Razor.md)
 - [React.md](React.md)
 - [SOLID.md](SOLID.md)
+- [Docker.md](Docker.md)
+- [Azure-DevOps-GitHub.md](Azure-DevOps-GitHub.md)
 
 # book a session with me
 
