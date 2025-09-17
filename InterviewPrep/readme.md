@@ -16,6 +16,8 @@ General Topics that come up in a standard .NET developer evaluation.
 - [SOLID.md](SOLID.md)
 - [Docker.md](Docker.md)
 - [Azure-DevOps-GitHub.md](Azure-DevOps-GitHub.md)
+- [WinForms.md](WinForms.md)
+- [Xamarin.md](Xamarin.md)
 
 # book a session with me
 
