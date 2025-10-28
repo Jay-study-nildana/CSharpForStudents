@@ -3,6 +3,8 @@ Interview Reference Guide for Developers
 
 ---
 
+Note : Code samples available at the bottom of this page.
+
 ## Table of Contents
 
 1. [Overview & Motivation](#overview--motivation)  
@@ -573,5 +575,242 @@ A: Unsubscribe event handlers when no longer needed, use weak subscriptions for 
 ---
 
 Prepared as a comprehensive reference for developers and interview preparation on delegates, anonymous methods, and modern delegate-related enhancements in C#. Use this guide for studying, API design reviews, or code-review checklists.
+
+---
+
+Code Samples are available here. Simply copy paste the code block verbatim to a new console project.
+
+```
+
+
+using System;
+
+class Program
+{
+    // Custom delegate
+    delegate int BinaryOperation(int x, int y);
+
+    // Methods matching the delegate signature
+    static int Add(int a, int b) => a + b;
+    static int Multiply(int a, int b) => a * b;
+
+    static void Main()
+    {
+        Console.WriteLine("Delegate examples (C# 12 / .NET 8):");
+
+        // Create and invoke a custom delegate
+        BinaryOperation op = Add;
+        Console.WriteLine($"Add via delegate: {op(3, 4)}"); // 7
+
+        op = Multiply;
+        Console.WriteLine($"Multiply via delegate: {op(3, 4)}"); // 12
+
+        // Built-in delegate types: Func and Action
+        Func<int, int, int> funcMultiply = (a, b) => a * b;
+        Console.WriteLine($"Func multiply: {funcMultiply(5, 6)}"); // 30
+
+        Action<string> greeter = name => Console.WriteLine($"Hello, {name}!");
+        greeter("Alice");
+    }
+}
+
+```
+```
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Built-in generic delegate examples (Func, Action, Predicate, Comparison, Converter)\n");
+
+        // Func<T, TResult> examples
+        Func<int, int> square = x => x * x;
+        Console.WriteLine($"square(5) = {square(5)}");
+
+        Func<int, int, int> add = (a, b) => a + b;
+        Console.WriteLine($"add(3, 4) = {add(3, 4)}");
+
+        Func<int, string> intToString = i => $"Number {i}";
+        Console.WriteLine(intToString(7));
+
+        // Action<T> and Action examples (return void)
+        Action<string> print = s => Console.WriteLine($"Print: {s}");
+        print("Hello from Action");
+
+        Action<int, int> printSum = (a, b) => Console.WriteLine($"{a} + {b} = {a + b}");
+        printSum(10, 20);
+
+        // Multicast Action (invokes both targets)
+        Action multicast = () => Console.WriteLine("First");
+        multicast += () => Console.WriteLine("Second");
+        Console.WriteLine("\nMulticast Action output:");
+        multicast();
+
+        // Predicate<T> (returns bool)
+        Predicate<int> isEven = x => x % 2 == 0;
+        Console.WriteLine($"\nisEven(6) = {isEven(6)}");
+        Console.WriteLine($"isEven(7) = {isEven(7)}");
+
+        // Comparison<T> used by sorting APIs
+        string[] names = { "Alice", "Bob", "Charlie", "Zoë" };
+        Comparison<string> lengthComparison = (a, b) => a.Length - b.Length;
+        Array.Sort(names, lengthComparison);
+        Console.WriteLine("\nSorted by length:");
+        foreach (var n in names) Console.WriteLine(n);
+
+        // Converter<TInput, TOutput>
+        Converter<string, int> parse = s => int.Parse(s);
+        int parsed = parse("123");
+        Console.WriteLine($"\nParsed value = {parsed}");
+
+        // Small combined example: Func + Predicate
+        Func<int[], int[]> filterAndSquare = arr =>
+        {
+            Predicate<int> positive = v => v > 0;
+            int[] positives = Array.FindAll(arr, positive);
+            for (int i = 0; i < positives.Length; i++) positives[i] = positives[i] * positives[i];
+            return positives;
+        };
+
+        var result = filterAndSquare(new[] { -2, 0, 3, 4 });
+        Console.WriteLine("\nFiltered & squared positives:");
+        foreach (var v in result) Console.WriteLine(v);
+    }
+}
+
+```
+```
+
+using System;
+
+class Program
+{
+    // Custom delegate (for demonstration)
+    delegate int BinaryOperation(int x, int y);
+
+    static void Main()
+    {
+        Console.WriteLine("Anonymous method examples (C# 12 / .NET 8):\n");
+
+        // 1) Anonymous method for a custom delegate
+        BinaryOperation addAnon = delegate(int x, int y) { return x + y; };
+        Console.WriteLine($"addAnon(3,4) = {addAnon(3,4)}");
+
+        // 2) Anonymous method assigned to Func<T...>
+        Func<int, int, int> multiplyAnon = delegate(int a, int b) { return a * b; };
+        Console.WriteLine($"multiplyAnon(5,6) = {multiplyAnon(5,6)}");
+
+        // 3) Anonymous method assigned to Action<T>
+        Action<string> printAnon = delegate(string s) { Console.WriteLine($\"Print: {s}\"); };
+        printAnon(\"Hello from Action (anonymous method)\");
+
+        // 4) Predicate<T>
+        Predicate<int> isOdd = delegate(int v) { return v % 2 != 0; };
+        Console.WriteLine($\"isOdd(7) = {isOdd(7)}\");
+
+        // 5) Multicast Action using anonymous methods
+        Action multi = delegate { Console.WriteLine(\"First\"); };
+        multi += delegate { Console.WriteLine(\"Second\"); };
+        Console.WriteLine(\"\\nMulticast output:\");
+        multi();
+
+        // 6) Closure capture with anonymous method (captures 'factor')
+        int factor = 10;
+        Func<int, int> times = delegate(int x) { return x * factor; };
+        Console.WriteLine($\"\\nBefore change factor=10 -> times(3) = {times(3)}\");
+        factor = 20; // captured variable changed
+        Console.WriteLine($\"After change factor=20 -> times(3) = {times(3)}\");
+
+        // 7) Using anonymous method with Array.FindAll
+        string[] names = { \"Alice\", \"Bob\", \"Andrew\", \"Cathy\" };
+        var aNames = Array.FindAll(names, delegate(string s) { return s.StartsWith(\"A\"); });
+        Console.WriteLine(\"\\nNames starting with 'A':\");
+        foreach (var n in aNames) Console.WriteLine(n);
+
+        // Short comparison: equivalent lambda for reference
+        Func<int, int> squareLambda = x => x * x;
+        Console.WriteLine($\"\\nLambda square(4) = {squareLambda(4)}\");
+    }
+}
+
+
+```
+```
+
+using System;
+using System.Threading;
+
+class ProgressEventArgs : EventArgs
+{
+    public int Percentage { get; }
+    public string? Message { get; }
+
+    public ProgressEventArgs(int percentage, string? message = null)
+    {
+        Percentage = percentage;
+        Message = message;
+    }
+}
+
+class Downloader
+{
+    // Public event using the standard EventHandler<TEventArgs> pattern
+    public event EventHandler<ProgressEventArgs>? ProgressChanged;
+
+    // Protected virtual method to raise the event (allows derived classes to override)
+    protected virtual void OnProgressChanged(ProgressEventArgs e)
+    {
+        // Thread-safe null check and invocation
+        ProgressChanged?.Invoke(this, e);
+    }
+
+    // Simulate work and raise events
+    public void Start()
+    {
+        for (int i = 0; i <= 100; i += 25)
+        {
+            Thread.Sleep(200); // simulate work
+            OnProgressChanged(new ProgressEventArgs(i, $"Reached {i}%"));
+        }
+
+        // Final event indicating completion
+        OnProgressChanged(new ProgressEventArgs(100, "Download complete"));
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        var downloader = new Downloader();
+
+        // Subscriber 1: method group
+        downloader.ProgressChanged += ReportProgress;
+
+        // Subscriber 2: lambda capture (anonymous method)
+        downloader.ProgressChanged += (sender, e) =>
+        {
+            if (e.Percentage >= 50)
+                Console.WriteLine($"[Lambda] Halfway there: {e.Percentage}% - {e.Message}");
+        };
+
+        Console.WriteLine("Starting downloader...");
+        downloader.Start();
+
+        // Unsubscribe the method-based handler and run again to show subscription changes
+        downloader.ProgressChanged -= ReportProgress;
+        Console.WriteLine("\nRestarting downloader after unsubscribing ReportProgress...");
+        downloader.Start();
+    }
+
+    // Named event handler
+    static void ReportProgress(object? sender, ProgressEventArgs e)
+    {
+        Console.WriteLine($"[ReportProgress] {e.Percentage}% - {e.Message}");
+    }
+}
+
 
 ```
