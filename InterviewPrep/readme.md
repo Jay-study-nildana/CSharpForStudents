@@ -2,32 +2,6 @@
 
 General Topics that come up in a standard .NET developer evaluation.
 
-- [ADONET](ADONET.md)
-- [AgileMethodology](AgileMethodology.md)
-- [Angular](Angular.md)
-- [Angular-MoreStuff](Angular-MoreStuff.md)
-- [Azure-DevOps-GitHub](Azure-DevOps-GitHub.md)
-- [Blazor](Blazor.md)
-- [CSharpDotNetGeneral](CSharpDotNetGeneral.md)
-- [Dapper](Dapper.md)
-- [Delegates-Anonymous-Methods-Delegate-Enhancements-in-CSharp](Delegates-Anonymous-Methods-Delegate-Enhancements-in-CSharp.md)
-- [DesignPatterns](DesignPatterns.md)
-- [Docker](Docker.md)
-- [EDM-Configuration-Code-Conventions-DataAnnotations-FluentAPI](EDM-Configuration-Code-Conventions-DataAnnotations-FluentAPI.md)
-- [EntityFramework](EntityFramework.md)
-- [Exception-Handling-in-CSharp](Exception-Handling-in-CSharp.md)
-- [Generic-Collections-in-CSharp](Generic-Collections-in-CSharp.md)
-- [Implicit-and-Dynamic-Types-and-Initializers-in-CSharp](Implicit-and-Dynamic-Types-and-Initializers-in-CSharp.md)
-- [LINQ-in-CSharp](LINQ-in-CSharp.md)
-- [MSSQL](MSSQL.md)
-- [MicroServices](MicroServices.md)
-- [Razor](Razor.md)
-- [React](React.md)
-- [ReactJS-MoreStuff](ReactJS-MoreStuff.md)
-- [SOLID Principles](SOLID.md)
-- [WinForms](WinForms.md)
-- [Xamarin](Xamarin.md)
-
 # book a session with me
 
 1. [calendly](https://calendly.com/jaycodingtutor/30min)
