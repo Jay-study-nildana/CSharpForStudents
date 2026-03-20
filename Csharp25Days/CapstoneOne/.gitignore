@@ -1,0 +1,9 @@
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.DS_Store
+data/
+*.sqlite

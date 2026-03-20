@@ -1,0 +1,53 @@
+[
+  {
+    "Id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "CreatedUtc": "2026-03-20T09:00:00Z",
+    "CodeName": "Apokolips Shadow",
+    "Location": "Metropolis",
+    "ThreatLevel": "Crisis",
+    "Status": "Draft",
+    "RequiredTeamSize": 3,
+    "RequiresMysticSupport": false,
+    "RequiresStealth": false,
+    "Window": {
+      "StartsAtUtc": "2026-03-21T18:00:00Z",
+      "DurationHours": 6
+    },
+    "Notes": "Track a boom tube energy surge near S.T.A.R. Labs.",
+    "OutcomeSummary": ""
+  },
+  {
+    "Id": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "CreatedUtc": "2026-03-20T09:10:00Z",
+    "CodeName": "Gotham Whisper",
+    "Location": "Gotham",
+    "ThreatLevel": "High",
+    "Status": "Draft",
+    "RequiredTeamSize": 2,
+    "RequiresMysticSupport": false,
+    "RequiresStealth": true,
+    "Window": {
+      "StartsAtUtc": "2026-03-22T21:00:00Z",
+      "DurationHours": 4
+    },
+    "Notes": "Investigate Court of Owls movement under the Narrows.",
+    "OutcomeSummary": ""
+  },
+  {
+    "Id": "cccccccc-cccc-cccc-cccc-cccccccccccc",
+    "CreatedUtc": "2026-03-20T09:20:00Z",
+    "CodeName": "Oblivion Sigil",
+    "Location": "The Watchtower",
+    "ThreatLevel": "High",
+    "Status": "Draft",
+    "RequiredTeamSize": 2,
+    "RequiresMysticSupport": true,
+    "RequiresStealth": false,
+    "Window": {
+      "StartsAtUtc": "2026-03-23T16:00:00Z",
+      "DurationHours": 5
+    },
+    "Notes": "Contain a magical breach radiating from a relic vault.",
+    "OutcomeSummary": ""
+  }
+]

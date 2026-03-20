@@ -1,0 +1,23 @@
+[
+  {
+    "Id": "b1b2c3d4-0001-0000-0000-000000000001",
+    "Name": "Alice Johnson",
+    "Email": "alice.johnson@example.com",
+    "MembershipDate": "2026-01-05T08:00:00Z",
+    "MaxLoansAllowed": 3
+  },
+  {
+    "Id": "b1b2c3d4-0002-0000-0000-000000000002",
+    "Name": "Bob Smith",
+    "Email": "bob.smith@example.com",
+    "MembershipDate": "2026-01-08T08:00:00Z",
+    "MaxLoansAllowed": 3
+  },
+  {
+    "Id": "b1b2c3d4-0003-0000-0000-000000000003",
+    "Name": "Carol White",
+    "Email": "carol.white@example.com",
+    "MembershipDate": "2026-02-01T08:00:00Z",
+    "MaxLoansAllowed": 3
+  }
+]
