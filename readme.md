@@ -2,6 +2,8 @@
 
 Find example code for learning c sharp. check out the [docs](https://jay-study-nildana.github.io/CSharpForStudents/).
 
+Note : This branch contains an earlier version of this repo. After this branch date, I cleaned up a lot of stuff. I am leaving this branch here as an archive of the old stuff. 
+
 # List of Topics
 
 1. [InterviewPrep](InterviewPrep)
