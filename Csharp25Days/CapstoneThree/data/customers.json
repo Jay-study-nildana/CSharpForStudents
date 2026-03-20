@@ -1,0 +1,62 @@
+[
+  {
+    "FirstName": "Tony",
+    "LastName": "Parker",
+    "Email": "tony.parker@example.com",
+    "Phone": "555-0101",
+    "Membership": "Bronze",
+    "TotalSpent": 45.00,
+    "FullName": "Tony Parker",
+    "Id": "4e2d4602-1040-469c-ba76-baa061eb4f32",
+    "CreatedAt": "2026-03-20T13:31:46.5298882Z",
+    "UpdatedAt": "2026-03-20T13:31:46.5298888Z"
+  },
+  {
+    "FirstName": "Diana",
+    "LastName": "Prince",
+    "Email": "diana.prince@example.com",
+    "Phone": "555-0102",
+    "Membership": "Silver",
+    "TotalSpent": 320.50,
+    "FullName": "Diana Prince",
+    "Id": "cca1a077-cd6b-4d71-9397-dc9861188280",
+    "CreatedAt": "2026-03-20T13:31:46.5300112Z",
+    "UpdatedAt": "2026-03-20T13:31:46.5300112Z"
+  },
+  {
+    "FirstName": "Bruce",
+    "LastName": "Wayne",
+    "Email": "bruce.wayne@example.com",
+    "Phone": "555-0103",
+    "Membership": "Gold",
+    "TotalSpent": 1250.00,
+    "FullName": "Bruce Wayne",
+    "Id": "935cde7a-ff11-413a-9e97-3884b36090a1",
+    "CreatedAt": "2026-03-20T13:31:46.5300116Z",
+    "UpdatedAt": "2026-03-20T13:31:46.5300117Z"
+  },
+  {
+    "FirstName": "Clark",
+    "LastName": "Kent",
+    "Email": "clark.kent@example.com",
+    "Phone": "555-0104",
+    "Membership": "Platinum",
+    "TotalSpent": 3500.75,
+    "FullName": "Clark Kent",
+    "Id": "7481e6da-9f5a-4986-ae84-38b03a4143f1",
+    "CreatedAt": "2026-03-20T13:31:46.5300119Z",
+    "UpdatedAt": "2026-03-20T13:31:46.530012Z"
+  },
+  {
+    "FirstName": "Peter",
+    "LastName": "Parker",
+    "Email": "peter.parker@example.com",
+    "Phone": "555-0105",
+    "Membership": "Bronze",
+    "TotalSpent": 28.99,
+    "FullName": "Peter Parker",
+    "Id": "1d812530-a476-4251-9f57-cf111b0b7d4f",
+    "CreatedAt": "2026-03-20T13:31:46.5300122Z",
+    "UpdatedAt": "2026-03-20T13:31:46.5300123Z"
+  }
+]
