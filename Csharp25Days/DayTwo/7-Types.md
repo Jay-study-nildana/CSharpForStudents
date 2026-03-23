@@ -3,6 +3,7 @@
 This note explains core C# type categories you’ll use every day: value vs reference types, the common numeric types, booleans, and chars. Read it as a conceptual guide with small code examples you can run later.
 
 ## Value types vs Reference types (conceptual)
+
 - Value types store their data directly. When you assign a value type variable to another, a copy of the data is made.
 - Reference types store a reference (pointer) to data on the heap. Assigning a reference type variable copies the reference, so two variables can refer to the same object.
 
