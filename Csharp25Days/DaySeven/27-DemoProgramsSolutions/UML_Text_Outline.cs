@@ -1,12 +1,19 @@
 using System;
 
+var outline = new UML_Text_Outline();
+outline.PrintOutline();
+
+Console.WriteLine();
+Console.WriteLine("Press any key to exit...");
+Console.ReadKey();
+
 /// <summary>
 /// Problem: UML_Text_Outline
 /// Prints a textual UML-like outline for a small Library domain showing classes, fields, methods, and responsibilities.
 /// </summary>
-class UML_Text_Outline
+public class UML_Text_Outline
 {
-    static void Main()
+    public void PrintOutline()
     {
         Console.WriteLine("UML-like Outline: Library System");
         Console.WriteLine();
