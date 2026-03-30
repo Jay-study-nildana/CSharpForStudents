@@ -15,13 +15,29 @@ Patterns and examples
 - Define an interface and provide different implementations selected at runtime (DI, factory, or configuration).
 
 ```csharp
-public interface IDiscountPolicy { decimal Apply(decimal total); }
+public interface IDiscountPolicy 
+{ 
+    decimal Apply(decimal total); 
+}
 
-public class NoDiscount : IDiscountPolicy { public decimal Apply(decimal total) => total; }
-public class PercentageDiscount : IDiscountPolicy { decimal _p; public PercentageDiscount(decimal p) => _p = p; public decimal Apply(decimal t) => t * (1 - _p); }
+public class NoDiscount : IDiscountPolicy 
+{ 
+    public decimal Apply(decimal total) => total; 
+}
+public class PercentageDiscount : IDiscountPolicy 
+{ 
+    decimal _p; 
+    public PercentageDiscount(decimal p) => _p = p; 
+    public decimal Apply(decimal t) => t * (1 - _p); 
+}
 
 // Usage via DI
-public class Checkout { private readonly IDiscountPolicy _policy; public Checkout(IDiscountPolicy p) => _policy = p; public decimal Final(decimal total) => _policy.Apply(total); }
+public class Checkout 
+{ 
+    private readonly IDiscountPolicy _policy; 
+    public Checkout(IDiscountPolicy p) => _policy = p; 
+    public decimal Final(decimal total) => _policy.Apply(total); 
+}
 ```
 
 2. Decorator (compose behavior)

@@ -33,7 +33,11 @@ public class OrderService
 {
     private readonly ILogger _logger;
     public OrderService(ILogger logger) => _logger = logger;
-    public void PlaceOrder(Order o) { /* ... */ _logger.Log("order placed"); }
+    public void PlaceOrder(Order o) 
+    { 
+        /* ... */ 
+        _logger.Log("order placed"); 
+    }
 }
 ```
 
@@ -60,13 +64,20 @@ public abstract class Repository<T>
     public abstract T GetById(int id);
 
     // Shared helper
-    protected void OpenConnection() { /* common logic */ }
+    protected void OpenConnection() 
+    { 
+        /* common logic */ 
+    }
 }
 
 public class CustomerRepository : Repository<Customer>
 {
     public CustomerRepository(string conn) : base(conn) { }
-    public override Customer GetById(int id) { /* concrete DB access */ return new Customer(); }
+    public override Customer GetById(int id) 
+    { 
+        /* concrete DB access */ 
+        return new Customer(); 
+    }
 }
 ```
 
@@ -112,12 +123,3 @@ By depending on an interface rather than a concrete type, OrderService can be te
 2. Implement `CreditCardPayment` and `PaypalPayment`.
 3. Refactor an `OrderProcessor` that previously used `if (method == "card") ... else if ...` to accept an `IPaymentMethod` and demonstrate swapping implementations.
 4. Write a short note: why is this design easier to extend and test?
-
----
-
-What I did and next
-- I created this one‑page Markdown guide summarizing interfaces and abstract classes with C# examples and design guidance. If you’d like, I can:
-  - produce a short exercise handout (with starter code) for classwork,
-  - convert the classroom exercise into a ready-to-run project with unit tests,
-  - or produce a one-page comparison table as a printable sheet.
-```
