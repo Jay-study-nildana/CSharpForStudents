@@ -191,16 +191,3 @@ private static readonly ConcurrentDictionary<string, CacheEntry> _cache =
 1. Convert a set of static helper methods into an instance-based service that accepts dependencies via constructor. Explain trade-offs for testability.
 2. Given a `ReportGenerator` that formats, fetches data, and writes to disk, break it into at least three methods/classes with single responsibilities. Draw a small UML-like outline (text).
 3. Identify four methods in your project and classify them as instance/static and explain why.
-
----
-
-## Final notes — what I prepared and what’s next
-
-I created a one-page Markdown guide that compares instance and static members, gives rules for placing behavior, shows simple C# examples, and explains cohesion and SRP. Use it as a reference when deciding where a method should live and how to structure classes for testability and clarity.
-
-Next: if you want, I can
-- convert this into a printable one-sheet,
-- produce three in-class refactoring exercises with starter code,
-- or generate small UML text outlines for the homework tasks.
-
-Bring one example from your own code (or a toy class) and we will practice converting responsibilities and choosing instance vs static in class.

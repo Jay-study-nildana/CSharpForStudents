@@ -151,11 +151,11 @@ static bool TryDivide(int a, int b, out int result)
 
 Summary: `out` is a concise, long-standing C# mechanism for returning extra values by reference in a controlled way. It remains idiomatic for the Try‑pattern; for newer APIs consider tuples or explicit result types for clearer semantics.
 
----
+## More Examples
 
-More Examples
 
----
+
+```
 
 // Definition
 public static bool TryGetPositive(string s, out int result)
@@ -184,7 +184,6 @@ int maybe;
 bool ok = TryGetPositive("7", out maybe);
 Console.WriteLine(ok ? $"Got {maybe}" : "Failed to get positive");
 
---
 
 // Definition
 static bool TryDivide(int a, int b, out int result)
@@ -208,7 +207,6 @@ else
 if (!TryDivide(5, 0, out _))
     Console.WriteLine("Cannot divide by zero (ignored the output value).");
 
---
 
 // Definition returning a tuple
 public static (bool success, int value) TryParseTuple(string s)
@@ -222,7 +220,6 @@ var (success, val) = TryParseTuple("256");
 if (success)
     Console.WriteLine($"Parsed via tuple: {val}");
 
---
 
 void UseRef(ref int x) { x += 1; }   // x must be initialized
 void UseOut(out int x) { x = 10; }   // x assigned inside method
@@ -233,3 +230,5 @@ UseRef(ref a); // OK
 int b;
 UseOut(out b); // OK, b is assigned inside UseOut
 Console.WriteLine(b); // prints 10
+
+```

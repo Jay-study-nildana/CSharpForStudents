@@ -1,4 +1,6 @@
-Below are 12 simple console program ideas you can use as short in-class demonstrations. For each I give a short description, the core concepts it illustrates, suggested demo time (for a 2‑hour session), and one or two easy extensions you can assign as homework.
+# Below are 12 simple console program ideas
+
+You can use as short in-class demonstrations. For each I give a short description, the core concepts it illustrates, suggested demo time (for a 2‑hour session), and one or two easy extensions you can assign as homework.
 
 1) Greeting app
 - Description: Ask the user for their name and print a personalized greeting.
@@ -82,7 +84,3 @@ Timing tips
 - Keep each demonstration focused on one or two concepts; don’t overload with too many language details.
 - Show the program running first, then walk through the structure and explain where you’d change behavior.
 - Use failing inputs on purpose to demonstrate validation and how the program should handle errors.
-
-If you want, I can next produce:
-- A one‑page demo script for each program describing exact prompts and expected outputs (no code), or
-- A short worksheet with three of the above programs turned into step-by-step in-class exercises. Which would you like?

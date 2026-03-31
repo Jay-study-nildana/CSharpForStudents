@@ -39,9 +39,11 @@ class MergeSortedLists
 
     static void Main()
     {
-        var a = new List<int>{1,2,4,4,7};
-        var b = new List<int>{2,3,4,8};
-        var merged = MergeNoDuplicates(a,b);
+        var a = new List<int> { 1, 2, 4, 4, 7 };
+        var b = new List<int> { 2, 3, 4, 8 };
+        Console.WriteLine(string.Join(", ", a)); // 1,2,4,4,7
+        Console.WriteLine(string.Join(", ", b)); // 2,3,4,8
+        var merged = MergeNoDuplicates(a, b);
         Console.WriteLine(string.Join(", ", merged)); // 1,2,3,4,7,8
     }
 }

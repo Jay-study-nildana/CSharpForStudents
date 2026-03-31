@@ -13,8 +13,12 @@ class FindAnagrams
         var dict = new Dictionary<string, List<string>>(StringComparer.OrdinalIgnoreCase);
         foreach (var w in words)
         {
-            var key = String.Concat(w.ToLowerInvariant().OrderBy(c => c)); // sorted letters as key
-            if (!dict.TryGetValue(key, out var list)) dict[key] = list = new List<string>();
+            var key = String.Concat(
+                                    w.ToLowerInvariant()
+                                    .OrderBy(c => c)
+                                    ); // sorted letters as key
+            if (!dict.TryGetValue(key, out var list)) 
+                dict[key] = list = new List<string>();
             list.Add(w);
         }
         return dict.Values.ToList();
@@ -22,7 +26,7 @@ class FindAnagrams
 
     static void Main()
     {
-        var words = new[]{"eat","tea","tan","ate","nat","bat"};
+        var words = new[] { "eat", "tea", "tan", "ate", "nat", "bat" };
         var groups = GroupAnagrams(words);
         foreach (var g in groups) Console.WriteLine($"[{string.Join(", ", g)}]");
     }

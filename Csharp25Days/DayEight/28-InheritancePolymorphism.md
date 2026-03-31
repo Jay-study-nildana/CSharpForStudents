@@ -180,6 +180,3 @@ If `Base.Process(x)` accepts any non-null `x`, a derived `Process` that throws f
 
 - Practice: Take a piece of code with `if/else` or `switch` that branches by type/value and sketch a class hierarchy that encapsulates each branch as a subclass (or a strategy).
 - Homework hint: In your write-up compare when inheritance helps (shared contract + specialization) versus when composition is safer (flexibility, testability, fewer coupling issues).
-
-What I prepared and next:
-- This markdown summarizes base/derived classes, `virtual`/`override`, `abstract` members, and demonstrates how polymorphism replaces conditionals. Next, we can convert one of your in-class conditional examples into a class hierarchy and produce a short UML-like outline and tests for it.
