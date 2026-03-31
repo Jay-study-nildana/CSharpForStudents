@@ -122,8 +122,3 @@ var (sum, avg) = summary;
 ## Classroom exercise
 - Convert a method that returns a tuple `(bool success, string message, Data dto)` into returning a record `OperationResult` and discuss advantages for tests and documentation.
 - Design a small immutable `Money` record or `record struct` and show equality and `with` usage.
-
----
-
-What I did and next
-- I prepared a one‑page Markdown reference covering record-like data shapes and tuples with examples and guidance. If you want, I can: (a) make a short slide or printable cheat-sheet, (b) produce starter exercises converting tuples to records, or (c) generate runnable sample projects demonstrating usage.
