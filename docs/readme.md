@@ -22,11 +22,11 @@ Welcome to my repository that contains example code from many years of coding an
    1. [SerilogSQLite](https://github.com/Jay-study-nildana/CSharpForStudents/tree/main/CS2025/SerilogSQLite)
    1. [AzFunctionHWJan282025](https://github.com/Jay-study-nildana/CSharpForStudents/tree/main/CS2025/AzFunctionHWJan282025)
 
-# book a session with me
+## book a session with me
 
 1. [calendly](https://calendly.com/jaycodingtutor/30min)
 
-# hire and get to know me
+## hire and get to know me
 
 find ways to hire me, follow me and stay in touch with me.
 

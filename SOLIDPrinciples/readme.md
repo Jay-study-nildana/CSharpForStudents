@@ -15,11 +15,11 @@ Note 1 : The harrymt files were created in a older version of visual studio I th
 1. https://www.harrymt.com/blog/2018/05/16/SOLID-principles.html
 1. https://en.wikipedia.org/wiki/SOLID
 
-# book a session with me
+## book a session with me
 
 1. [calendly](https://calendly.com/jaycodingtutor/30min)
 
-# hire and get to know me
+## hire and get to know me
 
 find ways to hire me, follow me and stay in touch with me.
 
