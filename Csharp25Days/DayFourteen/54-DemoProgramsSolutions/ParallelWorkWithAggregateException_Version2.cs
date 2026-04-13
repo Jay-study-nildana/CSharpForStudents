@@ -2,6 +2,9 @@
 // Problem: ParallelWorkWithAggregateException
 // Run several tasks where some throw, show handling of AggregateException via WaitAll and via await patterns.
 
+//Tutor Note : Tasks and Promises are discussed in detail in Day Twenty. 
+//You can skip this for now. 
+
 using System;
 using System.Linq;
 using System.Threading.Tasks;
