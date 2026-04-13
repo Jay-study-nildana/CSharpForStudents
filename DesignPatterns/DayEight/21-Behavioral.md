@@ -22,6 +22,8 @@ Tradeoffs:
 ## 2. Strategy — Pricing/Discount example (C#)
 Participants: IPriceStrategy (strategy interface), concrete strategies (NoDiscount, PercentageDiscount, TieredDiscount), PricingService (client).
 
+Note : This was previously already discussed. Check Day One discussions folder. 
+
 ```csharp
 // Strategy interface
 public interface IPriceStrategy

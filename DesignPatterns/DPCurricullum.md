@@ -1,12 +1,5 @@
 12-Day Curriculum (2 hours per session)
 
-Notes on session structure (same template each day)
-- 10–15 min: learning objectives + problem context  
-- 30–40 min: conceptual explanation + UML/problem modeling  
-- 20–30 min: instructor demo (design walkthrough and runtime behavior — no code shown in this plan)  
-- 35–45 min: guided lab (individual or pair work)  
-- 5–10 min: recap, homework, reading, and extension exercises
-
 Day 1 — Introduction, Patterns vocabulary, SOLID and DI foundations
 - Objectives: What patterns are and why they matter; pattern anatomy (intent, problem, solution, tradeoffs); short UML primer; SOLID principles recap; Dependency Inversion and Dependency Injection concepts and lifetime choices.
 - Lecture points: pattern catalog types (creational/structural/behavioral), how to choose a pattern, anti-patterns to avoid.
