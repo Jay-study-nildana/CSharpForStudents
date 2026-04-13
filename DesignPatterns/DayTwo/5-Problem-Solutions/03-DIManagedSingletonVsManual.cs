@@ -1,41 +1,71 @@
-// 03-DIManagedSingletonVsManual.cs
-// Problem: Compare DI-managed singleton vs manual singleton.
-// This file shows both approaches and lists tradeoffs in comments.
+// LoggerServiceSingletonDemo.cs
+// Console demo comparing manual singleton and DI-managed singleton for ILoggerService.
 
 using System;
 using Microsoft.Extensions.DependencyInjection;
+
+/*
+Comparison:
+- Manual Singleton: You write the singleton logic, control instantiation, and access via Instance property.
+- DI Singleton: The DI container manages the singleton's lifecycle and dependencies. You request the service from the container.
+- DI is preferred in modern apps for testability, flexibility, and separation of concerns.
+*/
+
+// Top-level statements
+var services = new ServiceCollection();
+// Register DISingletonLogger as a singleton for ILoggerService
+services.AddSingleton<ILoggerService, DISingletonLogger>();
+var provider = services.BuildServiceProvider();
+
+Console.WriteLine("Manual Singleton and DI Singleton Demo\n");
+
+while (true)
+{
+    Console.WriteLine("Choose logger: manual, di, or exit");
+    var choice = Console.ReadLine();
+    if (choice == "exit") break;
+    Console.Write("Enter message: ");
+    var msg = Console.ReadLine();
+
+    if (choice == "manual")
+    {
+        // Manual singleton usage
+        // You control the instance lifecycle
+        ManualSingletonLogger.Instance.Log(msg);
+    }
+    else if (choice == "di")
+    {
+        // DI-managed singleton usage
+        // The DI container manages the instance lifecycle
+        var logger = provider.GetRequiredService<ILoggerService>();
+        logger.Log(msg);
+    }
+    else
+    {
+        Console.WriteLine("Invalid choice.");
+    }
+}
+
+
+
 
 public interface ILoggerService
 {
     void Log(string message);
 }
 
-// Concrete logger
-public class AppLogger : ILoggerService
+// Manual singleton implementation
+public class ManualSingletonLogger : ILoggerService
 {
-    public void Log(string message) => Console.WriteLine($"[AppLogger] {message}");
+    private static ManualSingletonLogger _instance;
+    private ManualSingletonLogger() { }
+    public static ManualSingletonLogger Instance => _instance ??= new ManualSingletonLogger();
+    public void Log(string message) => Console.WriteLine($"[ManualSingleton] {message}");
 }
 
-/* Approach A: DI-managed singleton (preferred in DI apps)
-   Registration (conceptual):
-   services.AddSingleton<ILoggerService, AppLogger>();
-   Then constructor-inject ILoggerService where needed.
-*/
-
-/* Approach B: Manual singleton */
-public class ManualLogger : ILoggerService
+// DI-managed singleton implementation
+public class DISingletonLogger : ILoggerService
 {
-    private static readonly Lazy<ManualLogger> _lazy = new(() => new ManualLogger());
-    private ManualLogger() { }
-    public static ManualLogger Instance => _lazy.Value;
-    public void Log(string message) => Console.WriteLine($"[ManualLogger] {message}");
+    public void Log(string message) => Console.WriteLine($"[DI Singleton] {message}");
 }
 
-/*
-Tradeoffs:
-- Testability: DI-managed makes it easy to replace with mocks; manual singleton is harder to replace/reset.
-- Lifecycle control: DI container manages disposal if the concrete type implements IDisposable; manual requires custom cleanup.
-- Dependencies: DI allows constructor injection of dependencies; manual singletons must obtain/initialize dependencies themselves.
-- Global access: manual singletons often encourage hidden dependencies; DI encourages explicit dependency graphs.
-- Complexity: manual singleton is simple for tiny apps, but scales poorly in complex systems.
-*/
